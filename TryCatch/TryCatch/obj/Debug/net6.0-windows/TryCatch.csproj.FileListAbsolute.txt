@@ -1,0 +1,17 @@
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\bin\Debug\net6.0-windows\TryCatch.exe
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\bin\Debug\net6.0-windows\TryCatch.deps.json
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\bin\Debug\net6.0-windows\TryCatch.runtimeconfig.json
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\bin\Debug\net6.0-windows\TryCatch.dll
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\bin\Debug\net6.0-windows\TryCatch.pdb
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.Form1.resources
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.csproj.GenerateResource.cache
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.AssemblyInfo.cs
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.sourcelink.json
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.dll
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\refint\TryCatch.dll
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.pdb
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\TryCatch.genruntimeconfig.cache
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\TryCatch\TryCatch\obj\Debug\net6.0-windows\ref\TryCatch.dll
