@@ -18,7 +18,7 @@ namespace TryCatch
 
             }catch (Exception ex)
             {
-                MessageBox.Show($"Erro {ex}", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show($"Erro {ex.Message}", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
             }
             finally
