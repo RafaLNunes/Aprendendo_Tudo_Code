@@ -1,6 +1,8 @@
 # Aprendendo_Tudo_Code
 
 1. aprendendo_class
-2. TryCatch
-3. database com c#
-4. SideBar
+       * exemplo de como usar o basico de class
+3. TryCatch
+       * exemplo basico do trycatchfinally
+5. database com c#
+6. SideBar
