@@ -4,7 +4,7 @@ Try: funciona para efetuar um código que pode dar ero
 
 catch: faz a mensagem do erro sem fechar o código
 
-'''
+´´´
 try
 {
 	int v1 = 10;
@@ -16,14 +16,14 @@ try
 {
 	MessageBox.Show("Erro: " + ex.message);
 }
-'''
+´´´
 
 dependendo do caso podendo usar o finally depois do catch para finalizar o código
 
-'''
+´´´
 finally
 {
         MessageBox.Show("Código Finalizado");
 	Close();
 }
-'''
+´´´
