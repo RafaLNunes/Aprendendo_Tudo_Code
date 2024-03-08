@@ -38,8 +38,6 @@
             label4 = new Label();
             textidade = new TextBox();
             textname = new TextBox();
-            label6 = new Label();
-            textano = new TextBox();
             SuspendLayout();
             // 
             // textuser
@@ -64,7 +62,7 @@
             // 
             // textpassword
             // 
-            textpassword.Location = new Point(436, 176);
+            textpassword.Location = new Point(633, 107);
             textpassword.Name = "textpassword";
             textpassword.Size = new Size(100, 23);
             textpassword.TabIndex = 2;
@@ -72,7 +70,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(455, 158);
+            label1.Location = new Point(652, 89);
             label1.Name = "label1";
             label1.Size = new Size(59, 15);
             label1.TabIndex = 3;
@@ -133,30 +131,12 @@
             textname.Size = new Size(100, 23);
             textname.TabIndex = 6;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(606, 89);
-            label6.Name = "label6";
-            label6.Size = new Size(165, 15);
-            label6.TabIndex = 12;
-            label6.Text = "Ano (AA-MM-DD HH:MM:SS)";
-            // 
-            // textano
-            // 
-            textano.Location = new Point(633, 107);
-            textano.Name = "textano";
-            textano.Size = new Size(100, 23);
-            textano.TabIndex = 11;
-            // 
             // FrmUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 192, 0);
             ClientSize = new Size(800, 450);
-            Controls.Add(label6);
-            Controls.Add(textano);
             Controls.Add(label3);
             Controls.Add(label4);
             Controls.Add(textidade);
@@ -188,7 +168,5 @@
         private Label label4;
         private TextBox textidade;
         private TextBox textname;
-        private Label label6;
-        private TextBox textano;
     }
 }

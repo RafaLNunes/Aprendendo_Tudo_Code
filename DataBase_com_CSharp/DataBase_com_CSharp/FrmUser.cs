@@ -21,8 +21,10 @@ namespace DataBase_com_CSharp
             try 
             {
                 clconnection clc = new clconnection();
-                clc.cadastrar(textname, textidade, textano, textuser, textpassword);
-
+                if (clc.cadastrar(textname, textidade, textuser, textpassword) > 0)
+                {
+                    MessageBox.Show("OK");
+                }
 
 
                 FrmProduto prof = new FrmProduto();
