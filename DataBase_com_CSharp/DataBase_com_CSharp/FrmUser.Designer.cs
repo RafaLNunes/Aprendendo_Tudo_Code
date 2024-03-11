@@ -38,6 +38,7 @@
             label4 = new Label();
             textidade = new TextBox();
             textname = new TextBox();
+            label5 = new Label();
             SuspendLayout();
             // 
             // textuser
@@ -131,12 +132,23 @@
             textname.Size = new Size(100, 23);
             textname.TabIndex = 6;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(429, 180);
+            label5.Name = "label5";
+            label5.Size = new Size(112, 15);
+            label5.TabIndex = 10;
+            label5.Text = "Data de nascimento";
+            label5.Click += label5_Click;
+            // 
             // FrmUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 192, 0);
             ClientSize = new Size(800, 450);
+            Controls.Add(label5);
             Controls.Add(label3);
             Controls.Add(label4);
             Controls.Add(textidade);
@@ -168,5 +180,6 @@
         private Label label4;
         private TextBox textidade;
         private TextBox textname;
+        private Label label5;
     }
 }

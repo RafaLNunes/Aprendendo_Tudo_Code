@@ -18,7 +18,7 @@ namespace DataBase_com_CSharp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 clconnection clc = new clconnection();
                 if (clc.cadastrar(textname, textidade, textuser, textpassword) > 0)
@@ -56,6 +56,9 @@ namespace DataBase_com_CSharp
             Application.Exit();
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
