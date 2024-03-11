@@ -5,6 +5,7 @@ Create Table Users(
 	Cod_User int primary key auto_increment,
     Nome varchar(30),
     idade int,
+    ano datetime, -- '2024-03-11 12:34:56'
     NameUser varchar(60),
 	pasword varchar(40)
 );
@@ -27,3 +28,7 @@ Create Table juncao(
 select * from Produto;
 select * from Users;
 select * from juncao;
+
+
+create database baa;
+use baa;

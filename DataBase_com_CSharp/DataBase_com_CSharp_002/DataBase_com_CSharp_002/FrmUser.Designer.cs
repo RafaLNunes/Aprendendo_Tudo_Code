@@ -44,6 +44,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // Teste
@@ -66,6 +67,7 @@
             button2.TabIndex = 1;
             button2.Text = "Enter";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // contextMenuStrip1
             // 
@@ -163,17 +165,27 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(391, 181);
+            label3.Location = new Point(395, 162);
             label3.Name = "label3";
             label3.Size = new Size(114, 15);
             label3.TabIndex = 14;
             label3.Text = "Data de Nascimento";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(376, 182);
+            label4.Name = "label4";
+            label4.Size = new Size(158, 15);
+            label4.TabIndex = 15;
+            label4.Text = "Dia        |      Mês      |        Ano";
             // 
             // FrmUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -189,6 +201,7 @@
             Controls.Add(button2);
             Controls.Add(Teste);
             Name = "FrmUser";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += FrmUser_Load;
             ResumeLayout(false);
@@ -212,5 +225,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Label label4;
     }
 }
