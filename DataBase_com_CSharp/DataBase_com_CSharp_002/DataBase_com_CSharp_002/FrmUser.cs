@@ -3,6 +3,8 @@ namespace DataBase_com_CSharp_002
     public partial class FrmUser : Form
     {
         clconnection Conn = new clconnection();
+        bool teste;
+
         public FrmUser()
         {
             InitializeComponent();
@@ -27,6 +29,9 @@ namespace DataBase_com_CSharp_002
             {
                 CBDia.Items.Add(i + 1);
             }
+
+            clconnection conn = new clconnection();
+            dataGridUser.DataSource = conn.Obterdados("select * from Users;");
 
         }
 
@@ -54,16 +59,20 @@ namespace DataBase_com_CSharp_002
             if (Conn.Cadastrar(txtNome, textIdade, CBAno, CBMes, CBDia, textUser, textPassWord) > 0)
             {
                 MessageBox.Show("Cadastro OK");
+                teste = true;
             }
             else
             {
                 MessageBox.Show("Não foi possivel");
+                teste = false;
             }
 
-            FrmProduto prod = new FrmProduto();
-            this.Hide();
-            prod.ShowDialog();
-
+            if (teste == true)
+            {
+                FrmProduto prod = new FrmProduto();
+                this.Hide();
+                prod.ShowDialog();
+            }
         }
     }
 }

@@ -16,5 +16,11 @@ namespace DataBase_com_CSharp_002
         {
             InitializeComponent();
         }
+
+        private void FrmProduto_Load(object sender, EventArgs e)
+        {
+            Frmteste teste = new Frmteste();
+            teste.ShowDialog();
+        }
     }
 }

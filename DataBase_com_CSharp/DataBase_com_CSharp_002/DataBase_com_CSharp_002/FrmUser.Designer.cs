@@ -45,6 +45,8 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            dataGridUser = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridUser).BeginInit();
             SuspendLayout();
             // 
             // Teste
@@ -180,11 +182,21 @@
             label4.TabIndex = 15;
             label4.Text = "Dia        |      Mês      |        Ano";
             // 
+            // dataGridUser
+            // 
+            dataGridUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridUser.Location = new Point(328, 12);
+            dataGridUser.Name = "dataGridUser";
+            dataGridUser.RowTemplate.Height = 25;
+            dataGridUser.Size = new Size(240, 150);
+            dataGridUser.TabIndex = 16;
+            // 
             // FrmUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridUser);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -204,6 +216,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += FrmUser_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridUser).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -226,5 +239,6 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private DataGridView dataGridUser;
     }
 }

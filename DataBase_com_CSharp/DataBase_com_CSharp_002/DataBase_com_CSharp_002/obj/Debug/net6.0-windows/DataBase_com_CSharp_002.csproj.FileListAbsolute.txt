@@ -34,3 +34,5 @@ C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBas
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.pdb
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\ref\DataBase_com_CSharp_002.dll
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.FrmProduto.resources
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.Frmteste.resources
