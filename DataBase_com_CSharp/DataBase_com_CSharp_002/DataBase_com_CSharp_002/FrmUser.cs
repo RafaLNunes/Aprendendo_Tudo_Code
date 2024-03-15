@@ -69,10 +69,18 @@ namespace DataBase_com_CSharp_002
 
             if (teste == true)
             {
-                FrmProduto prod = new FrmProduto();
+                FrmLogIn log = new FrmLogIn();
                 this.Hide();
-                prod.ShowDialog();
+                log.ShowDialog();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            FrmLogIn log = new FrmLogIn();
+            this.Hide();
+            log.ShowDialog();
         }
     }
 }

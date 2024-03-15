@@ -24,12 +24,7 @@ namespace DataBase_com_CSharp_002
 
         private void button1_Click(object sender, EventArgs e)
         {
-            clconnection conn = new clconnection();
-            if(conn.Log_in(textuser, textpass) > 0)
-            {
-                FrmProduto prof = new FrmProduto();
-                prof.ShowDialog();
-            }
+            
         }
     }
 }

@@ -46,6 +46,7 @@
             label3 = new Label();
             label4 = new Label();
             dataGridUser = new DataGridView();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridUser).BeginInit();
             SuspendLayout();
             // 
@@ -78,28 +79,28 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(171, 107);
+            txtNome.Location = new Point(178, 185);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(100, 23);
             txtNome.TabIndex = 3;
             // 
             // textIdade
             // 
-            textIdade.Location = new Point(171, 264);
+            textIdade.Location = new Point(178, 342);
             textIdade.Name = "textIdade";
             textIdade.Size = new Size(100, 23);
             textIdade.TabIndex = 4;
             // 
             // textUser
             // 
-            textUser.Location = new Point(618, 107);
+            textUser.Location = new Point(625, 185);
             textUser.Name = "textUser";
             textUser.Size = new Size(100, 23);
             textUser.TabIndex = 5;
             // 
             // textPassWord
             // 
-            textPassWord.Location = new Point(618, 264);
+            textPassWord.Location = new Point(625, 342);
             textPassWord.Name = "textPassWord";
             textPassWord.Size = new Size(100, 23);
             textPassWord.TabIndex = 6;
@@ -107,7 +108,7 @@
             // CBDia
             // 
             CBDia.FormattingEnabled = true;
-            CBDia.Location = new Point(350, 199);
+            CBDia.Location = new Point(357, 277);
             CBDia.Name = "CBDia";
             CBDia.Size = new Size(64, 23);
             CBDia.TabIndex = 7;
@@ -115,7 +116,7 @@
             // CBMes
             // 
             CBMes.FormattingEnabled = true;
-            CBMes.Location = new Point(420, 199);
+            CBMes.Location = new Point(427, 277);
             CBMes.Name = "CBMes";
             CBMes.Size = new Size(64, 23);
             CBMes.TabIndex = 8;
@@ -123,7 +124,7 @@
             // CBAno
             // 
             CBAno.FormattingEnabled = true;
-            CBAno.Location = new Point(490, 199);
+            CBAno.Location = new Point(497, 277);
             CBAno.Name = "CBAno";
             CBAno.Size = new Size(64, 23);
             CBAno.TabIndex = 9;
@@ -131,7 +132,7 @@
             // Nome
             // 
             Nome.AutoSize = true;
-            Nome.Location = new Point(197, 89);
+            Nome.Location = new Point(204, 167);
             Nome.Name = "Nome";
             Nome.Size = new Size(40, 15);
             Nome.TabIndex = 10;
@@ -140,7 +141,7 @@
             // Idade
             // 
             Idade.AutoSize = true;
-            Idade.Location = new Point(201, 246);
+            Idade.Location = new Point(208, 324);
             Idade.Name = "Idade";
             Idade.Size = new Size(36, 15);
             Idade.TabIndex = 11;
@@ -149,7 +150,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(637, 89);
+            label1.Location = new Point(644, 167);
             label1.Name = "label1";
             label1.Size = new Size(62, 15);
             label1.TabIndex = 12;
@@ -158,7 +159,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(637, 246);
+            label2.Location = new Point(644, 324);
             label2.Name = "label2";
             label2.Size = new Size(59, 15);
             label2.TabIndex = 13;
@@ -167,7 +168,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(395, 162);
+            label3.Location = new Point(402, 240);
             label3.Name = "label3";
             label3.Size = new Size(114, 15);
             label3.TabIndex = 14;
@@ -176,7 +177,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(376, 182);
+            label4.Location = new Point(383, 260);
             label4.Name = "label4";
             label4.Size = new Size(158, 15);
             label4.TabIndex = 15;
@@ -185,17 +186,29 @@
             // dataGridUser
             // 
             dataGridUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridUser.Location = new Point(328, 12);
+            dataGridUser.Location = new Point(335, 90);
             dataGridUser.Name = "dataGridUser";
             dataGridUser.RowTemplate.Height = 25;
             dataGridUser.Size = new Size(240, 150);
             dataGridUser.TabIndex = 16;
+            // 
+            // button1
+            // 
+            button1.Dock = DockStyle.Top;
+            button1.Location = new Point(113, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(687, 84);
+            button1.TabIndex = 17;
+            button1.Text = "Log In";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // FrmUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(dataGridUser);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -240,5 +253,6 @@
         private Label label3;
         private Label label4;
         private DataGridView dataGridUser;
+        private Button button1;
     }
 }
