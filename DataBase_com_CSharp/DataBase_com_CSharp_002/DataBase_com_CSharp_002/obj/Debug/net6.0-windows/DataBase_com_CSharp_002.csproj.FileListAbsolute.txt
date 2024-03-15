@@ -37,3 +37,4 @@ C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBas
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.FrmProduto.resources
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.Frmteste.resources
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.FrmLogIn.resources
+C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.FrmPrincipal.resources

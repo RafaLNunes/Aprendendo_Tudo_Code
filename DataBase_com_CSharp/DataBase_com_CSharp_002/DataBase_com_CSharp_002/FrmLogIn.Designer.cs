@@ -35,6 +35,7 @@
             textpass = new TextBox();
             button1 = new Button();
             button2 = new Button();
+            ir_cad = new Button();
             SuspendLayout();
             // 
             // label2
@@ -44,7 +45,7 @@
             label2.Name = "label2";
             label2.Size = new Size(62, 15);
             label2.TabIndex = 9;
-            label2.Text = "UserName";
+            label2.Text = "userName";
             // 
             // enter
             // 
@@ -88,6 +89,7 @@
             button1.TabIndex = 10;
             button1.Text = "Cancelar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -100,11 +102,23 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // ir_cad
+            // 
+            ir_cad.Dock = DockStyle.Bottom;
+            ir_cad.Location = new Point(75, 301);
+            ir_cad.Name = "ir_cad";
+            ir_cad.Size = new Size(352, 60);
+            ir_cad.TabIndex = 12;
+            ir_cad.Text = "Ir para cadastro";
+            ir_cad.UseVisualStyleBackColor = true;
+            ir_cad.Click += ir_cad_Click;
+            // 
             // FrmLogIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(427, 361);
+            Controls.Add(ir_cad);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label2);
@@ -130,5 +144,6 @@
         private TextBox textpass;
         private Button button1;
         private Button button2;
+        private Button ir_cad;
     }
 }

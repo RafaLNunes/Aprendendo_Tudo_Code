@@ -75,7 +75,7 @@
             label2.Name = "label2";
             label2.Size = new Size(62, 15);
             label2.TabIndex = 4;
-            label2.Text = "UserName";
+            label2.Text = "userName";
             // 
             // Frmteste
             // 

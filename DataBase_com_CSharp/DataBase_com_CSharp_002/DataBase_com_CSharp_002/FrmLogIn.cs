@@ -15,6 +15,7 @@ namespace DataBase_com_CSharp_002
         public FrmLogIn()
         {
             InitializeComponent();
+            ir_cad.Visible = false;
         }
 
         private void FrmLogIn_FormClosed(object sender, FormClosedEventArgs e)
@@ -25,14 +26,15 @@ namespace DataBase_com_CSharp_002
         private void enter_Click(object sender, EventArgs e)
         {
             cluser u = new cluser();
-            
+
             DataTable cod = u.log(textuser, textpass);
 
             MessageBox.Show($"Id logado: {cod.Rows[0][1].ToString()}");
 
-            if (Convert.ToInt32(cod.Rows[0][0]) > 0 )
+            if (Convert.ToInt32(cod.Rows[0][0]) > 0)
             {
-                FrmUser n = new FrmUser();
+                this.Hide();
+                FrmPrincipal n = new FrmPrincipal(cod);
                 n.ShowDialog();
 
             }
@@ -62,6 +64,25 @@ namespace DataBase_com_CSharp_002
             {
                 MessageBox.Show($"Erro em: {ex.Message}");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textpass.Text = String.Empty;
+            textuser.Text = String.Empty;
+
+
+
+            ir_cad.Visible = true;
+
+
+        }
+
+        private void ir_cad_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frmuser frmuser = new Frmuser();
+            frmuser.ShowDialog();
         }
     }
 }

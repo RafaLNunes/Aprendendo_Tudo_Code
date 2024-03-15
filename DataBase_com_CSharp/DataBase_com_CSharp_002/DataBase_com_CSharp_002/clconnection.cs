@@ -50,7 +50,7 @@ namespace DataBase_com_CSharp_002
                 //password
                 String password = textBox3.Text;
 
-                String sql = $"Insert into Users(Nome, idade, ano, NameUser, pasword) values('{nome}', {idade}, '{ano}', '{username}', '{password}');";
+                String sql = $"Insert into users(Nome, idade, ano, Nameuser, pasword) values('{nome}', {idade}, '{ano}', '{username}', '{password}');";
                 MySqlCommand cmd = new MySqlCommand(sql, Connections);
 
                 reg = cmd.ExecuteNonQuery();

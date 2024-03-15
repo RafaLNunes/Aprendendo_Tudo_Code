@@ -1,11 +1,11 @@
 namespace DataBase_com_CSharp_002
 {
-    public partial class FrmUser : Form
+    public partial class Frmuser : Form
     {
         clconnection Conn = new clconnection();
         bool teste;
 
-        public FrmUser()
+        public Frmuser()
         {
             InitializeComponent();
         }
@@ -13,7 +13,7 @@ namespace DataBase_com_CSharp_002
 
 
 
-        private void FrmUser_Load(object sender, EventArgs e)
+        private void Frmuser_Load(object sender, EventArgs e)
         {
             Int32 anoatual = DateTime.Now.Year;
             for (int i = 0; i < 101; i++)
@@ -31,7 +31,7 @@ namespace DataBase_com_CSharp_002
             }
 
             clconnection conn = new clconnection();
-            dataGridUser.DataSource = conn.Obterdados("select * from Users;");
+            dataGriduser.DataSource = conn.Obterdados("select * from users;");
 
         }
 
@@ -56,7 +56,7 @@ namespace DataBase_com_CSharp_002
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (Conn.Cadastrar(txtNome, textIdade, CBAno, CBMes, CBDia, textUser, textPassWord) > 0)
+            if (Conn.Cadastrar(txtNome, textIdade, CBAno, CBMes, CBDia, textuser, textPassWord) > 0)
             {
                 MessageBox.Show("Cadastro OK");
                 teste = true;
@@ -81,6 +81,13 @@ namespace DataBase_com_CSharp_002
             FrmLogIn log = new FrmLogIn();
             this.Hide();
             log.ShowDialog();
+        }
+
+        private void dataGriduser_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int cod = Convert.ToInt32(dataGriduser.Rows[e.RowIndex].Cells[e.ColumnIndex].Value);
+            resut.Text = cod.ToString();
+            txtNome.Text = dataGriduser.Rows[e.RowIndex].Cells["Nome"].Value.ToString();
         }
     }
 }

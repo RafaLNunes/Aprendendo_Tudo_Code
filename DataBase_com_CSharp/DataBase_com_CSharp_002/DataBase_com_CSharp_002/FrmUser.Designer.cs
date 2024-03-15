@@ -1,6 +1,6 @@
 ﻿namespace DataBase_com_CSharp_002
 {
-    partial class FrmUser
+    partial class Frmuser
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,7 +34,7 @@
             contextMenuStrip1 = new ContextMenuStrip(components);
             txtNome = new TextBox();
             textIdade = new TextBox();
-            textUser = new TextBox();
+            textuser = new TextBox();
             textPassWord = new TextBox();
             CBDia = new ComboBox();
             CBMes = new ComboBox();
@@ -45,9 +45,10 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            dataGridUser = new DataGridView();
+            dataGriduser = new DataGridView();
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridUser).BeginInit();
+            resut = new Label();
+            ((System.ComponentModel.ISupportInitialize)dataGriduser).BeginInit();
             SuspendLayout();
             // 
             // Teste
@@ -91,12 +92,12 @@
             textIdade.Size = new Size(100, 23);
             textIdade.TabIndex = 4;
             // 
-            // textUser
+            // textuser
             // 
-            textUser.Location = new Point(625, 185);
-            textUser.Name = "textUser";
-            textUser.Size = new Size(100, 23);
-            textUser.TabIndex = 5;
+            textuser.Location = new Point(625, 185);
+            textuser.Name = "textuser";
+            textuser.Size = new Size(100, 23);
+            textuser.TabIndex = 5;
             // 
             // textPassWord
             // 
@@ -152,9 +153,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(644, 167);
             label1.Name = "label1";
-            label1.Size = new Size(62, 15);
+            label1.Size = new Size(61, 15);
             label1.TabIndex = 12;
-            label1.Text = "UserName";
+            label1.Text = "userName";
             // 
             // label2
             // 
@@ -183,14 +184,15 @@
             label4.TabIndex = 15;
             label4.Text = "Dia        |      Mês      |        Ano";
             // 
-            // dataGridUser
+            // dataGriduser
             // 
-            dataGridUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridUser.Location = new Point(335, 90);
-            dataGridUser.Name = "dataGridUser";
-            dataGridUser.RowTemplate.Height = 25;
-            dataGridUser.Size = new Size(240, 150);
-            dataGridUser.TabIndex = 16;
+            dataGriduser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGriduser.Location = new Point(335, 90);
+            dataGriduser.Name = "dataGriduser";
+            dataGriduser.RowTemplate.Height = 25;
+            dataGriduser.Size = new Size(240, 150);
+            dataGriduser.TabIndex = 16;
+            dataGriduser.CellContentClick += dataGriduser_CellContentClick;
             // 
             // button1
             // 
@@ -203,13 +205,23 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // FrmUser
+            // resut
+            // 
+            resut.AutoSize = true;
+            resut.Location = new Point(208, 110);
+            resut.Name = "resut";
+            resut.Size = new Size(38, 15);
+            resut.TabIndex = 18;
+            resut.Text = "label5";
+            // 
+            // Frmuser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(resut);
             Controls.Add(button1);
-            Controls.Add(dataGridUser);
+            Controls.Add(dataGriduser);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -220,16 +232,16 @@
             Controls.Add(CBMes);
             Controls.Add(CBDia);
             Controls.Add(textPassWord);
-            Controls.Add(textUser);
+            Controls.Add(textuser);
             Controls.Add(textIdade);
             Controls.Add(txtNome);
             Controls.Add(button2);
             Controls.Add(Teste);
-            Name = "FrmUser";
+            Name = "Frmuser";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            Load += FrmUser_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridUser).EndInit();
+            Load += Frmuser_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGriduser).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -241,7 +253,7 @@
         private ContextMenuStrip contextMenuStrip1;
         private TextBox txtNome;
         private TextBox textIdade;
-        private TextBox textUser;
+        private TextBox textuser;
         private TextBox textPassWord;
         private ComboBox CBDia;
         private ComboBox CBMes;
@@ -252,7 +264,8 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private DataGridView dataGridUser;
+        private DataGridView dataGriduser;
         private Button button1;
+        private Label resut;
     }
 }

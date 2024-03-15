@@ -17,7 +17,6 @@ namespace DataBase_com_CSharp_002
         public DataTable log(TextBox textBox, TextBox textBox1)
         {
             DataTable reg = new DataTable();
-            int tam;
             
 
 
@@ -25,7 +24,7 @@ namespace DataBase_com_CSharp_002
             {
                 String user = textBox.Text;
                 String password = textBox1.Text;
-                String sql = "select * from Users where NameUser=@user and pasword=@password";
+                String sql = "select * from users where Nameuser=@user and pasword=@password";
 
 
                 MySqlConnection com = conn.TestConnection();
@@ -52,7 +51,6 @@ namespace DataBase_com_CSharp_002
         public int coseguir_tamanho()
         {
             int reg = 0;
-            int tam;
 
 
 
@@ -63,7 +61,7 @@ namespace DataBase_com_CSharp_002
                 MySqlConnection com = conn.TestConnection();
                 com.Open();
 
-                MySqlCommand tama = new MySqlCommand("SELECT COUNT(*) FROM Users;", com);
+                MySqlCommand tama = new MySqlCommand("SELECT COUNT(*) FROM users;", com);
 
 
                 reg = Convert.ToInt32(tama.ExecuteScalar());
@@ -72,7 +70,7 @@ namespace DataBase_com_CSharp_002
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show($"Erro: {ex.Message}");
             }
 
             return reg;
