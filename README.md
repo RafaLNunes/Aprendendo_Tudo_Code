@@ -22,3 +22,14 @@
       }
     }
     ```
+    Podendo chamar como
+    ```
+    Mark mark = new Mark();
+    mark.SetAnchor(From1);
+    ```
+    Ou
+    ```
+    Mark mark = new Mark();
+    Form1.SetAnchor();
+    ```
+    isso por ser um this e por ser static
