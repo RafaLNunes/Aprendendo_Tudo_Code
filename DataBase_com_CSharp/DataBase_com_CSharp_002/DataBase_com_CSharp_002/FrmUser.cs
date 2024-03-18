@@ -3,6 +3,7 @@ namespace DataBase_com_CSharp_002
     public partial class Frmuser : Form
     {
         clconnection Conn = new clconnection();
+        int cod;
         bool teste;
 
         public Frmuser()
@@ -85,9 +86,40 @@ namespace DataBase_com_CSharp_002
 
         private void dataGriduser_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int cod = Convert.ToInt32(dataGriduser.Rows[e.RowIndex].Cells[e.ColumnIndex].Value);
+            cod = Convert.ToInt32(dataGriduser.Rows[e.RowIndex].Cells[e.ColumnIndex].Value);
             resut.Text = cod.ToString();
             txtNome.Text = dataGriduser.Rows[e.RowIndex].Cells["Nome"].Value.ToString();
+            textIdade.Text = dataGriduser.Rows[e.RowIndex].Cells["idade"].Value.ToString();
+            textPassWord.Text = dataGriduser.Rows[e.RowIndex].Cells["pasword"].Value.ToString();
+            textuser.Text = dataGriduser.Rows[e.RowIndex].Cells["NameUser"].Value.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            cluser u = new cluser();
+            int idade = Convert.ToInt32(textIdade.Text);
+            if (u.altertable(textuser.Text, textPassWord.Text, txtNome.Text, idade, cod) > 0)
+            {
+                MessageBox.Show("Mudança efetuada com sucesso");
+            }
+            else
+            {
+                MessageBox.Show("Erro na mudança de tabela");
+            }
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            cluser u = new cluser();
+            if (u.excluir(cod) > 0)
+            {
+                MessageBox.Show("Usuario excluido!!");
+            }
+            else
+            {
+                MessageBox.Show("Erro ao excluir!!");
+            }
         }
     }
 }

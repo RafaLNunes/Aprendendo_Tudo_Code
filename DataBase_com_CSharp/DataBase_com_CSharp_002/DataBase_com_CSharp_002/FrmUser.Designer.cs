@@ -48,6 +48,8 @@
             dataGriduser = new DataGridView();
             button1 = new Button();
             resut = new Label();
+            button3 = new Button();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGriduser).BeginInit();
             SuspendLayout();
             // 
@@ -214,11 +216,35 @@
             resut.TabIndex = 18;
             resut.Text = "label5";
             // 
+            // button3
+            // 
+            button3.Dock = DockStyle.Bottom;
+            button3.Location = new Point(113, 368);
+            button3.Name = "button3";
+            button3.Size = new Size(687, 23);
+            button3.TabIndex = 19;
+            button3.Text = "Alter Table";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // button4
+            // 
+            button4.Anchor = AnchorStyles.None;
+            button4.Location = new Point(416, 342);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 20;
+            button4.Text = "Excluir";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Frmuser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
+            Controls.Add(button3);
             Controls.Add(resut);
             Controls.Add(button1);
             Controls.Add(dataGriduser);
@@ -267,5 +293,7 @@
         private DataGridView dataGriduser;
         private Button button1;
         private Label resut;
+        private Button button3;
+        private Button button4;
     }
 }

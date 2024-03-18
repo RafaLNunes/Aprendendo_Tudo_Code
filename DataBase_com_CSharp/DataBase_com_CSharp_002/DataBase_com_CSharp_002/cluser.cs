@@ -76,5 +76,41 @@ namespace DataBase_com_CSharp_002
             return reg;
         }
 
+        public int  altertable(String nameuser, String password, String nome,int idade, int ID)
+        {
+            int reg = 0;
+            String sql = "update Users set Nome=@nome, NameUser=@nameuser, pasword=@password, idade=@idade where Cod_User=@cod";
+
+            MySqlConnection com = conn.TestConnection();
+            com.Open();
+
+            MySqlCommand cmd = new MySqlCommand( sql, com);
+
+            cmd.Parameters.AddWithValue("@nameuser", nameuser);
+            cmd.Parameters.AddWithValue("@password", password);
+            cmd.Parameters.AddWithValue("@nome", nome);
+            cmd.Parameters.AddWithValue("@idade", idade);
+            cmd.Parameters.AddWithValue ("@cod", ID);
+
+            reg = Convert.ToInt32(cmd.ExecuteNonQuery());
+
+            com.Close();
+            return reg;
+        }
+        
+        public int excluir(int ID)
+        {
+            int reg = 0;
+            MySqlConnection com = conn.TestConnection();
+            com.Open();
+            String sql = "delete from Users where Cod_User=@cod;";
+            MySqlCommand cmd = new MySqlCommand( sql, com);
+            cmd.Parameters.AddWithValue("@cod", ID);
+            reg = Convert.ToInt32(cmd.ExecuteNonQuery());
+            com.Close();
+
+
+            return reg;
+        }
     }
 }

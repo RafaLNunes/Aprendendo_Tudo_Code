@@ -28,25 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            panel1 = new Panel();
+            panel2 = new Panel();
             SuspendLayout();
             // 
-            // button1
+            // panel1
             // 
-            button1.BackColor = Color.FromArgb(58, 143, 133);
-            button1.Location = new Point(480, 326);
-            button1.Name = "button1";
-            button1.Size = new Size(218, 57);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = false;
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(503, 511);
+            panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(503, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(339, 511);
+            panel2.TabIndex = 1;
             // 
             // FrmLogIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(799, 451);
-            Controls.Add(button1);
+            ClientSize = new Size(842, 511);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             Name = "FrmLogIn";
             Text = "Form1";
             Load += FrmLogIn_Load;
@@ -55,6 +63,7 @@
 
         #endregion
 
-        private Button button1;
+        private Panel panel1;
+        private Panel panel2;
     }
 }
