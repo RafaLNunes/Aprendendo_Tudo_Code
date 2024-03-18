@@ -14,6 +14,8 @@ namespace DataBase_com_CSharp_002
         
         clconnection conn = new clconnection();
 
+
+
         public DataTable log(TextBox textBox, TextBox textBox1)
         {
             DataTable reg = new DataTable();

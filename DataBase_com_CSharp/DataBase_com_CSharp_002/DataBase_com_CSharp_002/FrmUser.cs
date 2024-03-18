@@ -2,6 +2,7 @@ namespace DataBase_com_CSharp_002
 {
     public partial class Frmuser : Form
     {
+        clconnection cot = new clconnection();
         clconnection Conn = new clconnection();
         int cod;
         bool teste;
@@ -31,9 +32,15 @@ namespace DataBase_com_CSharp_002
                 CBDia.Items.Add(i + 1);
             }
 
-            clconnection conn = new clconnection();
-            dataGriduser.DataSource = conn.Obterdados("select * from users;");
 
+            dataGriduser.DataSource = cot.Obterdados("select * from users;");
+
+
+            comboBox1.DataSource = cot.Obterdados("select * from perfil;");
+            comboBox1.DisplayMember = "cargo";
+            comboBox1.ValueMember = "Cod_perfil";
+            comboBox1.Text = String.Empty;
+        
         }
 
         private void Teste_Click(object sender, EventArgs e)
@@ -43,6 +50,8 @@ namespace DataBase_com_CSharp_002
                 if (Conn.TestConnection == null)
                 {
                     MessageBox.Show("Conexão não foi feita");
+
+                    dataGriduser.DataSource = cot.Obterdados("select * from users;");
                 }
                 else
                 {
@@ -61,6 +70,8 @@ namespace DataBase_com_CSharp_002
             {
                 MessageBox.Show("Cadastro OK");
                 teste = true;
+
+                dataGriduser.DataSource = cot.Obterdados("select * from users;");
             }
             else
             {
@@ -101,6 +112,8 @@ namespace DataBase_com_CSharp_002
             if (u.altertable(textuser.Text, textPassWord.Text, txtNome.Text, idade, cod) > 0)
             {
                 MessageBox.Show("Mudança efetuada com sucesso");
+
+                dataGriduser.DataSource = cot.Obterdados("select * from users;");
             }
             else
             {
@@ -115,11 +128,18 @@ namespace DataBase_com_CSharp_002
             if (u.excluir(cod) > 0)
             {
                 MessageBox.Show("Usuario excluido!!");
+
+                dataGriduser.DataSource = cot.Obterdados("select * from users;");
             }
             else
             {
                 MessageBox.Show("Erro ao excluir!!");
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            dataGriduser.DataSource = cot.Obterdados("select * from users;");
         }
     }
 }

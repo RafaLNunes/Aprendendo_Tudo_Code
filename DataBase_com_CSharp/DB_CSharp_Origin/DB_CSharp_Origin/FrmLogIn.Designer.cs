@@ -28,42 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            panel2 = new Panel();
+            textuser = new TextBox();
+            textpass = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // panel1
+            // textuser
             // 
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(503, 511);
-            panel1.TabIndex = 0;
+            textuser.Anchor = AnchorStyles.None;
+            textuser.Location = new Point(496, 138);
+            textuser.Name = "textuser";
+            textuser.Size = new Size(218, 23);
+            textuser.TabIndex = 0;
             // 
-            // panel2
+            // textpass
             // 
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(503, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(339, 511);
-            panel2.TabIndex = 1;
+            textpass.Anchor = AnchorStyles.None;
+            textpass.BackColor = SystemColors.Window;
+            textpass.Location = new Point(496, 294);
+            textpass.Name = "textpass";
+            textpass.Size = new Size(218, 23);
+            textpass.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(101, 153, 151);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Location = new Point(546, 409);
+            button1.Name = "button1";
+            button1.Size = new Size(136, 48);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            button1.MouseEnter += button1_MouseEnter;
+            button1.MouseLeave += button1_MouseLeave_1;
             // 
             // FrmLogIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(842, 511);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            BackgroundImage = Properties.Resources.DB_CSharp_Origin__3_;
+            ClientSize = new Size(780, 489);
+            Controls.Add(button1);
+            Controls.Add(textpass);
+            Controls.Add(textuser);
+            MaximumSize = new Size(796, 528);
+            MinimumSize = new Size(796, 528);
             Name = "FrmLogIn";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += FrmLogIn_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Panel panel1;
-        private Panel panel2;
+        private TextBox textuser;
+        private TextBox textpass;
+        private Button button1;
     }
 }

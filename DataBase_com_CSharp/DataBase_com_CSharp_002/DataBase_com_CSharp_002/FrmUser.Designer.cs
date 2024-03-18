@@ -50,6 +50,9 @@
             resut = new Label();
             button3 = new Button();
             button4 = new Button();
+            comboBox1 = new ComboBox();
+            label5 = new Label();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGriduser).BeginInit();
             SuspendLayout();
             // 
@@ -238,11 +241,42 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(643, 265);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(74, 23);
+            comboBox1.TabIndex = 21;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(643, 238);
+            label5.Name = "label5";
+            label5.Size = new Size(39, 15);
+            label5.TabIndex = 22;
+            label5.Text = "blabla";
+            // 
+            // button5
+            // 
+            button5.Dock = DockStyle.Left;
+            button5.Location = new Point(113, 84);
+            button5.Name = "button5";
+            button5.Size = new Size(59, 284);
+            button5.TabIndex = 23;
+            button5.Text = "Atuaizar";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Frmuser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button5);
+            Controls.Add(label5);
+            Controls.Add(comboBox1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(resut);
@@ -295,5 +329,8 @@
         private Label resut;
         private Button button3;
         private Button button4;
+        private ComboBox comboBox1;
+        private Label label5;
+        private Button button5;
     }
 }

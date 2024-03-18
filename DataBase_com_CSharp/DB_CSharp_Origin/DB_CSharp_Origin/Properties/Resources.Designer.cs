@@ -89,5 +89,15 @@ namespace DB_CSharp_Origin.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DB_CSharp_Origin__3_ {
+            get {
+                object obj = ResourceManager.GetObject("DB_CSharp_Origin (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
