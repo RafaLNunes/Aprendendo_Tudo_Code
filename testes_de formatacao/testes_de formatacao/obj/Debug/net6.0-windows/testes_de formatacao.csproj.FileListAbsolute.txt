@@ -1,0 +1,18 @@
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\bin\Debug\net6.0-windows\testes_de formatacao.exe
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\bin\Debug\net6.0-windows\testes_de formatacao.deps.json
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\bin\Debug\net6.0-windows\testes_de formatacao.runtimeconfig.json
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\bin\Debug\net6.0-windows\testes_de formatacao.dll
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\bin\Debug\net6.0-windows\testes_de formatacao.pdb
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de_formatacao.Form1.resources
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.csproj.GenerateResource.cache
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.AssemblyInfoInputs.cache
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.AssemblyInfo.cs
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.csproj.CoreCompileInputs.cache
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.sourcelink.json
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.dll
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\refint\testes_de formatacao.dll
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.pdb
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de formatacao.genruntimeconfig.cache
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\ref\testes_de formatacao.dll
+C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\testes_de formatacao\testes_de formatacao\obj\Debug\net6.0-windows\testes_de_formatacao.Properties.Resources.resources
