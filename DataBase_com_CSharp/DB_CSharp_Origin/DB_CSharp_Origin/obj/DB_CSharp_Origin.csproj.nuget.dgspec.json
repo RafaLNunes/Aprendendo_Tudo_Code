@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj": {}
+    "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj": {
+    "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj",
+        "projectUniqueName": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj",
         "projectName": "DB_CSharp_Origin",
-        "projectPath": "C:\\Users\\aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\obj\\",
+        "projectPath": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj",
+        "packagesPath": "C:\\Users\\rafin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
