@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogIn));
+            imageList1 = new ImageList(components);
             SuspendLayout();
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "icons8-x-48.png");
+            imageList1.Images.SetKeyName(1, "icons8-x-48 (1).png");
             // 
             // FrmLogIn
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FrmLogIn";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmLogIn";
@@ -44,5 +55,6 @@
         }
 
         #endregion
+        private ImageList imageList1;
     }
 }

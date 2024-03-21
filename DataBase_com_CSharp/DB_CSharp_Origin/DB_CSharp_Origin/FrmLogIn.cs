@@ -21,5 +21,10 @@ namespace DB_CSharp_Origin
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
