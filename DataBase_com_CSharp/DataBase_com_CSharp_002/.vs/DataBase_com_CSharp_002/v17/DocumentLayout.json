@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\database_com_csharp_002\\database_com_csharp_002\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|solutionrelative:database_com_csharp_002\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\database_com_csharp_002\\database_com_csharp_002\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|solutionrelative:database_com_csharp_002\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\database_com_csharp_002\\database_com_csharp_002\\clconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|solutionrelative:database_com_csharp_002\\clconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\database_com_csharp_002\\database_com_csharp_002\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|solutionrelative:database_com_csharp_002\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\database_com_csharp_002\\database_com_csharp_002\\cluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C0398-2F37-4060-9FBF-2AD3E99B509E}|DataBase_com_CSharp_002\\DataBase_com_CSharp_002.csproj|solutionrelative:database_com_csharp_002\\cluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cluser.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\cluser.cs",
+              "RelativeDocumentMoniker": "DataBase_com_CSharp_002\\cluser.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\cluser.cs",
+              "RelativeToolTip": "DataBase_com_CSharp_002\\cluser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T13:44:09.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clconnection.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\clconnection.cs",
+              "RelativeDocumentMoniker": "DataBase_com_CSharp_002\\clconnection.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\clconnection.cs",
+              "RelativeToolTip": "DataBase_com_CSharp_002\\clconnection.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwFYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T13:28:55.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmUser.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\FrmUser.cs",
+              "RelativeDocumentMoniker": "DataBase_com_CSharp_002\\FrmUser.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\FrmUser.cs",
+              "RelativeToolTip": "DataBase_com_CSharp_002\\FrmUser.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAIA+wG0AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T13:13:44.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmUser.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\FrmUser.cs",
+              "RelativeDocumentMoniker": "DataBase_com_CSharp_002\\FrmUser.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\FrmUser.cs [Projeto]",
+              "RelativeToolTip": "DataBase_com_CSharp_002\\FrmUser.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T13:13:24.91Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmLogIn.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\FrmLogIn.cs",
+              "RelativeDocumentMoniker": "DataBase_com_CSharp_002\\FrmLogIn.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DataBase_com_CSharp_002\\DataBase_com_CSharp_002\\FrmLogIn.cs [Projeto]",
+              "RelativeToolTip": "DataBase_com_CSharp_002\\FrmLogIn.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T13:13:12.278Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

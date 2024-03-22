@@ -50,9 +50,10 @@
             resut = new Label();
             button3 = new Button();
             button4 = new Button();
-            comboBox1 = new ComboBox();
+            CBperfil = new ComboBox();
             label5 = new Label();
             button5 = new Button();
+            LAno = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGriduser).BeginInit();
             SuspendLayout();
             // 
@@ -60,8 +61,9 @@
             // 
             Teste.Dock = DockStyle.Left;
             Teste.Location = new Point(0, 0);
+            Teste.Margin = new Padding(3, 4, 3, 4);
             Teste.Name = "Teste";
-            Teste.Size = new Size(113, 450);
+            Teste.Size = new Size(129, 600);
             Teste.TabIndex = 0;
             Teste.Text = "Testar Conexão";
             Teste.UseVisualStyleBackColor = true;
@@ -70,9 +72,10 @@
             // button2
             // 
             button2.Dock = DockStyle.Bottom;
-            button2.Location = new Point(113, 391);
+            button2.Location = new Point(129, 521);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(687, 59);
+            button2.Size = new Size(785, 79);
             button2.TabIndex = 1;
             button2.Text = "Enter";
             button2.UseVisualStyleBackColor = true;
@@ -80,131 +83,142 @@
             // 
             // contextMenuStrip1
             // 
+            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(178, 185);
+            txtNome.Location = new Point(203, 247);
+            txtNome.Margin = new Padding(3, 4, 3, 4);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(100, 23);
+            txtNome.Size = new Size(114, 27);
             txtNome.TabIndex = 3;
             // 
             // textIdade
             // 
-            textIdade.Location = new Point(178, 342);
+            textIdade.Location = new Point(203, 456);
+            textIdade.Margin = new Padding(3, 4, 3, 4);
             textIdade.Name = "textIdade";
-            textIdade.Size = new Size(100, 23);
+            textIdade.Size = new Size(114, 27);
             textIdade.TabIndex = 4;
             // 
             // textuser
             // 
-            textuser.Location = new Point(625, 185);
+            textuser.Location = new Point(714, 247);
+            textuser.Margin = new Padding(3, 4, 3, 4);
             textuser.Name = "textuser";
-            textuser.Size = new Size(100, 23);
+            textuser.Size = new Size(114, 27);
             textuser.TabIndex = 5;
             // 
             // textPassWord
             // 
-            textPassWord.Location = new Point(625, 342);
+            textPassWord.Location = new Point(714, 456);
+            textPassWord.Margin = new Padding(3, 4, 3, 4);
             textPassWord.Name = "textPassWord";
-            textPassWord.Size = new Size(100, 23);
+            textPassWord.Size = new Size(114, 27);
             textPassWord.TabIndex = 6;
             // 
             // CBDia
             // 
             CBDia.FormattingEnabled = true;
-            CBDia.Location = new Point(357, 277);
+            CBDia.Location = new Point(408, 369);
+            CBDia.Margin = new Padding(3, 4, 3, 4);
             CBDia.Name = "CBDia";
-            CBDia.Size = new Size(64, 23);
+            CBDia.Size = new Size(73, 28);
             CBDia.TabIndex = 7;
             // 
             // CBMes
             // 
             CBMes.FormattingEnabled = true;
-            CBMes.Location = new Point(427, 277);
+            CBMes.Location = new Point(488, 369);
+            CBMes.Margin = new Padding(3, 4, 3, 4);
             CBMes.Name = "CBMes";
-            CBMes.Size = new Size(64, 23);
+            CBMes.Size = new Size(73, 28);
             CBMes.TabIndex = 8;
             // 
             // CBAno
             // 
             CBAno.FormattingEnabled = true;
-            CBAno.Location = new Point(497, 277);
+            CBAno.Location = new Point(568, 369);
+            CBAno.Margin = new Padding(3, 4, 3, 4);
             CBAno.Name = "CBAno";
-            CBAno.Size = new Size(64, 23);
+            CBAno.Size = new Size(73, 28);
             CBAno.TabIndex = 9;
             // 
             // Nome
             // 
             Nome.AutoSize = true;
-            Nome.Location = new Point(204, 167);
+            Nome.Location = new Point(233, 223);
             Nome.Name = "Nome";
-            Nome.Size = new Size(40, 15);
+            Nome.Size = new Size(50, 20);
             Nome.TabIndex = 10;
             Nome.Text = "Nome";
             // 
             // Idade
             // 
             Idade.AutoSize = true;
-            Idade.Location = new Point(208, 324);
+            Idade.Location = new Point(238, 432);
             Idade.Name = "Idade";
-            Idade.Size = new Size(36, 15);
+            Idade.Size = new Size(47, 20);
             Idade.TabIndex = 11;
             Idade.Text = "Idade";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(644, 167);
+            label1.Location = new Point(736, 223);
             label1.Name = "label1";
-            label1.Size = new Size(61, 15);
+            label1.Size = new Size(76, 20);
             label1.TabIndex = 12;
             label1.Text = "userName";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(644, 324);
+            label2.Location = new Point(736, 432);
             label2.Name = "label2";
-            label2.Size = new Size(59, 15);
+            label2.Size = new Size(72, 20);
             label2.TabIndex = 13;
             label2.Text = "PassWord";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(402, 240);
+            label3.Location = new Point(459, 320);
             label3.Name = "label3";
-            label3.Size = new Size(114, 15);
+            label3.Size = new Size(145, 20);
             label3.TabIndex = 14;
             label3.Text = "Data de Nascimento";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(383, 260);
+            label4.Location = new Point(438, 347);
             label4.Name = "label4";
-            label4.Size = new Size(158, 15);
+            label4.Size = new Size(206, 20);
             label4.TabIndex = 15;
             label4.Text = "Dia        |      Mês      |        Ano";
             // 
             // dataGriduser
             // 
             dataGriduser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGriduser.Location = new Point(335, 90);
+            dataGriduser.Location = new Point(383, 120);
+            dataGriduser.Margin = new Padding(3, 4, 3, 4);
             dataGriduser.Name = "dataGriduser";
+            dataGriduser.RowHeadersWidth = 51;
             dataGriduser.RowTemplate.Height = 25;
-            dataGriduser.Size = new Size(240, 150);
+            dataGriduser.Size = new Size(274, 200);
             dataGriduser.TabIndex = 16;
             dataGriduser.CellContentClick += dataGriduser_CellContentClick;
             // 
             // button1
             // 
             button1.Dock = DockStyle.Top;
-            button1.Location = new Point(113, 0);
+            button1.Location = new Point(129, 0);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(687, 84);
+            button1.Size = new Size(785, 112);
             button1.TabIndex = 17;
             button1.Text = "Log In";
             button1.UseVisualStyleBackColor = true;
@@ -213,18 +227,19 @@
             // resut
             // 
             resut.AutoSize = true;
-            resut.Location = new Point(208, 110);
+            resut.Location = new Point(238, 147);
             resut.Name = "resut";
-            resut.Size = new Size(38, 15);
+            resut.Size = new Size(50, 20);
             resut.TabIndex = 18;
             resut.Text = "label5";
             // 
             // button3
             // 
             button3.Dock = DockStyle.Bottom;
-            button3.Location = new Point(113, 368);
+            button3.Location = new Point(129, 490);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(687, 23);
+            button3.Size = new Size(785, 31);
             button3.TabIndex = 19;
             button3.Text = "Alter Table";
             button3.UseVisualStyleBackColor = true;
@@ -233,50 +248,63 @@
             // button4
             // 
             button4.Anchor = AnchorStyles.None;
-            button4.Location = new Point(416, 342);
+            button4.Location = new Point(475, 456);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(86, 31);
             button4.TabIndex = 20;
             button4.Text = "Excluir";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
-            // comboBox1
+            // CBperfil
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(643, 265);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(74, 23);
-            comboBox1.TabIndex = 21;
+            CBperfil.FormattingEnabled = true;
+            CBperfil.Location = new Point(735, 353);
+            CBperfil.Margin = new Padding(3, 4, 3, 4);
+            CBperfil.Name = "CBperfil";
+            CBperfil.Size = new Size(122, 28);
+            CBperfil.TabIndex = 21;
+            CBperfil.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(643, 238);
+            label5.Location = new Point(770, 320);
             label5.Name = "label5";
-            label5.Size = new Size(39, 15);
+            label5.Size = new Size(42, 20);
             label5.TabIndex = 22;
-            label5.Text = "blabla";
+            label5.Text = "Perfil";
             // 
             // button5
             // 
             button5.Dock = DockStyle.Left;
-            button5.Location = new Point(113, 84);
+            button5.Location = new Point(129, 112);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(59, 284);
+            button5.Size = new Size(67, 378);
             button5.TabIndex = 23;
             button5.Text = "Atuaizar";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // LAno
+            // 
+            LAno.AutoSize = true;
+            LAno.Location = new Point(500, 411);
+            LAno.Name = "LAno";
+            LAno.Size = new Size(0, 20);
+            LAno.TabIndex = 24;
+            // 
             // Frmuser
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
+            Controls.Add(LAno);
             Controls.Add(button5);
             Controls.Add(label5);
-            Controls.Add(comboBox1);
+            Controls.Add(CBperfil);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(resut);
@@ -297,6 +325,7 @@
             Controls.Add(txtNome);
             Controls.Add(button2);
             Controls.Add(Teste);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Frmuser";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
@@ -329,8 +358,9 @@
         private Label resut;
         private Button button3;
         private Button button4;
-        private ComboBox comboBox1;
+        private ComboBox CBperfil;
         private Label label5;
         private Button button5;
+        private Label LAno;
     }
 }

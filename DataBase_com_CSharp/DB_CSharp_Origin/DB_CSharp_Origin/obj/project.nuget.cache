@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bKrvsUqvH9u8UHoRrOzjhAGjxh61vbB/EDY1cETl3MvVhl29gUcOf4WUf0h1q2SE0I1BksKMRYoT2FWYGOEBFw==",
+  "dgSpecHash": "aHYS/LdWQeSIKEwAN70qWFBsDAGYIqvbAj2hN7wzuR8S7UICy+4snqNH7jJ+XcxF/TmV1injMe8+NG76bXxi3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\DB_CSharp_Origin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -28,7 +28,6 @@ C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBas
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.AssemblyInfo.cs
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.csproj.CoreCompileInputs.cache
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.sourcelink.json
-C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.csproj.CopyComplete
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.dll
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\refint\DataBase_com_CSharp_002.dll
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.pdb
@@ -38,3 +37,4 @@ C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBas
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.Frmteste.resources
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.FrmLogIn.resources
 C:\Users\aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase_com_CSharp_002.FrmPrincipal.resources
+C:\Users\Aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DataBase_com_CSharp_002\DataBase_com_CSharp_002\obj\Debug\net6.0-windows\DataBase.89C5DEF6.Up2Date

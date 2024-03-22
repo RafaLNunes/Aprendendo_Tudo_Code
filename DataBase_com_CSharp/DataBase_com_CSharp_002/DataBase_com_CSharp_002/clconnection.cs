@@ -27,7 +27,7 @@ namespace DataBase_com_CSharp_002
             return Connections;
         }
 
-        public Int32 Cadastrar(TextBox textBox, TextBox textBox1, ComboBox comboBox, ComboBox comboBox1, ComboBox comboBox2, TextBox textBox2, TextBox textBox3)
+        public Int32 Cadastrar(TextBox textBox, TextBox textBox1, ComboBox comboBox, ComboBox comboBox1, ComboBox comboBox2, TextBox textBox2, TextBox textBox3, int Carg)
         {
             Int32 reg = 0;
             try
@@ -50,11 +50,16 @@ namespace DataBase_com_CSharp_002
                 //password
                 String password = textBox3.Text;
 
-                String sql = $"Insert into users(Nome, idade, ano, Nameuser, pasword) values('{nome}', {idade}, '{ano}', '{username}', '{password}');";
+                String sql = $"Insert into users(Nome, idade, ano, Nameuser, pasword, CFK_perfil) values('{nome}', {idade}, '{ano}', '{username}', '{password}', {Carg});";
                 MySqlCommand cmd = new MySqlCommand(sql, Connections);
 
                 reg = cmd.ExecuteNonQuery();
                 Connections.Close();
+
+
+
+
+
                 
             }
             catch(Exception ex)

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "7RlQ2F72q2059SvmNpEU10PyjkG7MXJ7ehB67bYg7gpAd+ZRTBzktJzQqso7qtP2cYNKWjiBnZxljHbqrimAYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprendendo_picture_box_circus\\Aprendendo_picture_box_circus\\Aprendendo_picture_box_circus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
