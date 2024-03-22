@@ -78,10 +78,10 @@ namespace DataBase_com_CSharp_002
             return reg;
         }
 
-        public int  altertable(String nameuser, String password, String nome,int idade, int ID)
+        public int altertable(String nameuser, String password, String nome, int idade, int ID,int carg)
         {
             int reg = 0;
-            String sql = "update Users set Nome=@nome, NameUser=@nameuser, pasword=@password, idade=@idade where Cod_User=@cod";
+            String sql = "update Users set Nome=@nome, NameUser=@nameuser, pasword=@password, idade=@idade, CFK_perfil=@cargo where Cod_User=@cod";
 
             MySqlConnection com = conn.TestConnection();
             com.Open();
@@ -93,6 +93,7 @@ namespace DataBase_com_CSharp_002
             cmd.Parameters.AddWithValue("@nome", nome);
             cmd.Parameters.AddWithValue("@idade", idade);
             cmd.Parameters.AddWithValue ("@cod", ID);
+            cmd.Parameters.AddWithValue("@cargo", carg);
 
             reg = Convert.ToInt32(cmd.ExecuteNonQuery());
 

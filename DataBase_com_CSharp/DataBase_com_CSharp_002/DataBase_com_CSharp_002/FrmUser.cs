@@ -1,4 +1,5 @@
 using System.Data;
+using System.Linq.Expressions;
 
 namespace DataBase_com_CSharp_002
 {
@@ -114,7 +115,7 @@ namespace DataBase_com_CSharp_002
         {
             cluser u = new cluser();
             int idade = Convert.ToInt32(textIdade.Text);
-            if (u.altertable(textuser.Text, textPassWord.Text, txtNome.Text, idade, cod) > 0)
+            if (u.altertable(textuser.Text, textPassWord.Text, txtNome.Text, idade, cod, CBperfil.SelectedIndex) > 0)
             {
                 MessageBox.Show("Mudança efetuada com sucesso");
 
@@ -150,6 +151,27 @@ namespace DataBase_com_CSharp_002
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Cargo = Convert.ToInt32(((DataRowView)CBperfil.SelectedItem)["Cod_perfil"]);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            try{
+                
+                OpenFileDialog ft = new OpenFileDialog();
+                ft.Filter = "image file(*.jpg;*.png;*.gif;*.jpeg)|*.jpg;*.png;*.gif;*.jpeg";
+                if(ft.ShowDialog() == DialogResult.OK)
+                {
+                    Image files= Image.FromFile(ft.FileName);
+                    pictureBox1.Image = files;
+                }else
+                {
+                    MessageBox.Show("Não foi escolhido nenhuma imagem!!!");
+                }
+
+            }catch(Exception xe)
+            {
+                MessageBox.Show("Erro: " +  xe.Message);
+            }
         }
     }
 }

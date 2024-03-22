@@ -34,3 +34,4 @@ C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CShar
 C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DB_CSharp_Origin\DB_CSharp_Origin\obj\Debug\net6.0-windows\DB_CSharp_Origin.pdb
 C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DB_CSharp_Origin\DB_CSharp_Origin\obj\Debug\net6.0-windows\DB_CSharp_Origin.genruntimeconfig.cache
 C:\Users\rafin\OneDrive\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DB_CSharp_Origin\DB_CSharp_Origin\obj\Debug\net6.0-windows\ref\DB_CSharp_Origin.dll
+C:\Users\Aluno\Documents\GitHub\Aprendendo_Tudo_Code\DataBase_com_CSharp\DB_CSharp_Origin\DB_CSharp_Origin\obj\Debug\net6.0-windows\DB_CSharp_Origin.FrmSignUp.resources

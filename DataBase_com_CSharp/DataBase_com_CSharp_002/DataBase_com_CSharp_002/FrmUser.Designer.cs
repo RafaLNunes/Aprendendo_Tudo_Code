@@ -54,7 +54,9 @@
             label5 = new Label();
             button5 = new Button();
             LAno = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGriduser).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // Teste
@@ -75,7 +77,7 @@
             button2.Location = new Point(129, 521);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(785, 79);
+            button2.Size = new Size(1105, 79);
             button2.TabIndex = 1;
             button2.Text = "Enter";
             button2.UseVisualStyleBackColor = true;
@@ -218,7 +220,7 @@
             button1.Location = new Point(129, 0);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(785, 112);
+            button1.Size = new Size(1105, 112);
             button1.TabIndex = 17;
             button1.Text = "Log In";
             button1.UseVisualStyleBackColor = true;
@@ -239,7 +241,7 @@
             button3.Location = new Point(129, 490);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(785, 31);
+            button3.Size = new Size(1105, 31);
             button3.TabIndex = 19;
             button3.Text = "Alter Table";
             button3.UseVisualStyleBackColor = true;
@@ -248,7 +250,7 @@
             // button4
             // 
             button4.Anchor = AnchorStyles.None;
-            button4.Location = new Point(475, 456);
+            button4.Location = new Point(475, 435);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(86, 31);
@@ -296,11 +298,23 @@
             LAno.Size = new Size(0, 20);
             LAno.TabIndex = 24;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox1.Location = new Point(927, 176);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(255, 234);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 25;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // Frmuser
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(1234, 600);
+            Controls.Add(pictureBox1);
             Controls.Add(LAno);
             Controls.Add(button5);
             Controls.Add(label5);
@@ -331,6 +345,7 @@
             Text = "Form1";
             Load += Frmuser_Load;
             ((System.ComponentModel.ISupportInitialize)dataGriduser).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -362,5 +377,6 @@
         private Label label5;
         private Button button5;
         private Label LAno;
+        private PictureBox pictureBox1;
     }
 }
