@@ -1,18 +1,6 @@
 create DataBase Teste_DataBase;
 use Teste_DataBase;
 
-Create Table Users(
-	Cod_User int primary key auto_increment,
-    Nome varchar(30),
-    idade int,
-    ano datetime, -- '2024-03-11 12:34:56'
-    NameUser varchar(60),
-	pasword varchar(40),
-    CFK_perfil int,
-    constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil)
-);
-
-
 
 -- alter table Users add CFK_perfil int;
 -- alter TABLE Users ADD constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil);
@@ -26,6 +14,18 @@ create table perfil(
 	Cod_perfil int primary key auto_increment,
     cargo varchar(50)
 );
+
+Create Table Users(
+	Cod_User int primary key auto_increment,
+    Nome varchar(30),
+    idade int,
+    ano datetime, -- '2024-03-11 12:34:56'
+    NameUser varchar(60),
+	pasword varchar(40),
+    CFK_perfil int,
+    constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil)
+);
+
 Create Table juncao(
 	cod_juncao int primary key auto_increment,
     CFK_prod int,
