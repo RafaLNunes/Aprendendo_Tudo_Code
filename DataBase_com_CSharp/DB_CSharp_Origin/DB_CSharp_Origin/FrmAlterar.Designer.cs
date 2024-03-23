@@ -31,7 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAlterar));
             button1 = new Button();
-            dataGridView1 = new DataGridView();
+            dataGridViewuser = new DataGridView();
             pictureBox6 = new PictureBox();
             Nome = new Label();
             textBox2 = new TextBox();
@@ -46,7 +46,11 @@
             label2 = new Label();
             textpassword = new TextBox();
             listImage_Visible_password = new ImageList(components);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            Test_Connection = new LinkLabel();
+            linkLabel1 = new LinkLabel();
+            panel1 = new Panel();
+            button2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewuser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -58,29 +62,31 @@
             // 
             button1.BackColor = Color.FromArgb(255, 126, 169);
             button1.Dock = DockStyle.Bottom;
-            button1.Location = new Point(0, 464);
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Location = new Point(0, 498);
             button1.Name = "button1";
-            button1.Size = new Size(934, 69);
+            button1.Size = new Size(934, 35);
             button1.TabIndex = 0;
             button1.Text = "AlterTable";
             button1.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dataGridViewuser
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Dock = DockStyle.Top;
-            dataGridView1.Location = new Point(0, 0);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(934, 145);
-            dataGridView1.TabIndex = 1;
+            dataGridViewuser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewuser.Dock = DockStyle.Top;
+            dataGridViewuser.Location = new Point(0, 0);
+            dataGridViewuser.Name = "dataGridViewuser";
+            dataGridViewuser.RowHeadersWidth = 51;
+            dataGridViewuser.RowTemplate.Height = 29;
+            dataGridViewuser.Size = new Size(934, 258);
+            dataGridViewuser.TabIndex = 1;
+            dataGridViewuser.CellContentClick += dataGridView1_CellContentClick;
             // 
             // pictureBox6
             // 
             pictureBox6.Anchor = AnchorStyles.None;
             pictureBox6.BackgroundImage = Properties.Resources.Design_sem_nome2;
-            pictureBox6.Image = Properties.Resources.nome_altertable;
+            pictureBox6.Image = Properties.Resources.Name_altertable;
             pictureBox6.Location = new Point(52, 302);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(52, 52);
@@ -112,7 +118,7 @@
             // 
             pictureBox5.Anchor = AnchorStyles.None;
             pictureBox5.BackgroundImage = Properties.Resources.Design_sem_nome2;
-            pictureBox5.Image = Properties.Resources.cargo_signup;
+            pictureBox5.Image = Properties.Resources.funcao_altertable;
             pictureBox5.Location = new Point(52, 381);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(52, 52);
@@ -165,7 +171,7 @@
             // 
             pictureBox2.Anchor = AnchorStyles.None;
             pictureBox2.BackgroundImage = Properties.Resources.Design_sem_nome2;
-            pictureBox2.Image = Properties.Resources.user_signup;
+            pictureBox2.Image = Properties.Resources.user_altertable;
             pictureBox2.Location = new Point(485, 298);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(52, 52);
@@ -184,13 +190,14 @@
             PBvisiblePassword.SizeMode = PictureBoxSizeMode.Zoom;
             PBvisiblePassword.TabIndex = 39;
             PBvisiblePassword.TabStop = false;
+            PBvisiblePassword.Click += PBvisiblePassword_Click;
             // 
             // pictureBox3
             // 
             pictureBox3.Anchor = AnchorStyles.None;
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImage = Properties.Resources.Design_sem_nome1;
-            pictureBox3.Image = Properties.Resources.Senha_signup;
+            pictureBox3.Image = Properties.Resources.senha_altertable;
             pictureBox3.Location = new Point(484, 388);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(52, 52);
@@ -227,12 +234,65 @@
             listImage_Visible_password.Images.SetKeyName(0, "visivel.png");
             listImage_Visible_password.Images.SetKeyName(1, "olho.png");
             // 
+            // Test_Connection
+            // 
+            Test_Connection.ActiveLinkColor = Color.Red;
+            Test_Connection.AutoSize = true;
+            Test_Connection.BackColor = Color.Transparent;
+            Test_Connection.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            Test_Connection.Location = new Point(758, 252);
+            Test_Connection.Name = "Test_Connection";
+            Test_Connection.Size = new Size(176, 31);
+            Test_Connection.TabIndex = 40;
+            Test_Connection.TabStop = true;
+            Test_Connection.Text = "Testar Conexão";
+            Test_Connection.LinkClicked += Test_Connection_LinkClicked;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.BackColor = Color.Transparent;
+            linkLabel1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            linkLabel1.Location = new Point(0, 253);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(210, 31);
+            linkLabel1.TabIndex = 41;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Atualizar Conexão";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(64, 0, 0);
+            panel1.Dock = DockStyle.Bottom;
+            panel1.Location = new Point(0, 481);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(934, 17);
+            panel1.TabIndex = 42;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(255, 126, 169);
+            button2.Dock = DockStyle.Bottom;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(0, 452);
+            button2.Name = "button2";
+            button2.Size = new Size(934, 29);
+            button2.TabIndex = 43;
+            button2.Text = "Excluir";
+            button2.UseVisualStyleBackColor = false;
+            // 
             // FrmAlterar
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Design_sem_nome;
             ClientSize = new Size(934, 533);
+            Controls.Add(button2);
+            Controls.Add(panel1);
+            Controls.Add(dataGridViewuser);
+            Controls.Add(linkLabel1);
+            Controls.Add(Test_Connection);
             Controls.Add(PBvisiblePassword);
             Controls.Add(pictureBox3);
             Controls.Add(label2);
@@ -246,12 +306,13 @@
             Controls.Add(pictureBox6);
             Controls.Add(Nome);
             Controls.Add(textBox2);
-            Controls.Add(dataGridView1);
             Controls.Add(button1);
             Name = "FrmAlterar";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmCadastro";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            FormClosed += FrmAlterar_FormClosed;
+            Load += FrmAlterar_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridViewuser).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -264,7 +325,7 @@
         #endregion
 
         private Button button1;
-        private DataGridView dataGridView1;
+        private DataGridView dataGridViewuser;
         private PictureBox pictureBox6;
         private Label Nome;
         private TextBox textBox2;
@@ -279,5 +340,9 @@
         private Label label2;
         private TextBox textpassword;
         private ImageList listImage_Visible_password;
+        private LinkLabel Test_Connection;
+        private LinkLabel linkLabel1;
+        private Panel panel1;
+        private Button button2;
     }
 }

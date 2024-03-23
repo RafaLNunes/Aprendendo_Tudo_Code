@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogIn));
             panel1 = new Panel();
+            Test_Connection = new LinkLabel();
             PBvisiblePassword = new PictureBox();
             linkLabel1 = new LinkLabel();
             label3 = new Label();
@@ -56,6 +57,7 @@
             // panel1
             // 
             panel1.BackgroundImage = Properties.Resources.Design_sem_nome;
+            panel1.Controls.Add(Test_Connection);
             panel1.Controls.Add(PBvisiblePassword);
             panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(label3);
@@ -71,6 +73,20 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(397, 533);
             panel1.TabIndex = 0;
+            // 
+            // Test_Connection
+            // 
+            Test_Connection.ActiveLinkColor = Color.Red;
+            Test_Connection.AutoSize = true;
+            Test_Connection.BackColor = Color.Transparent;
+            Test_Connection.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            Test_Connection.Location = new Point(221, 0);
+            Test_Connection.Name = "Test_Connection";
+            Test_Connection.Size = new Size(176, 31);
+            Test_Connection.TabIndex = 21;
+            Test_Connection.TabStop = true;
+            Test_Connection.Text = "Testar Conexão";
+            Test_Connection.LinkClicked += Test_Connection_LinkClicked;
             // 
             // PBvisiblePassword
             // 
@@ -120,6 +136,7 @@
             button1.TabIndex = 6;
             button1.Text = "Log In";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // pictureBox3
             // 
@@ -262,5 +279,6 @@
         private PictureBox PBvisiblePassword;
         private ImageList listImage_Visible_password;
         private Panel panel3;
+        private LinkLabel Test_Connection;
     }
 }

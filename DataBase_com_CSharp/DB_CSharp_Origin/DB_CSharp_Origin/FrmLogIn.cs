@@ -13,6 +13,7 @@ namespace DB_CSharp_Origin
     public partial class FrmLogIn : Form
     {
         bool passwordchard;
+        ClConnection conn = new ClConnection();
         public FrmLogIn()
         {
             InitializeComponent();
@@ -52,6 +53,38 @@ namespace DB_CSharp_Origin
             Application.Exit();
         }
 
+        private void Test_Connection_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                if (conn.GetConnection != null)
+                {
+                    MessageBox.Show("Conexão Estabelecida com sucesso!!!");
+                }
+                else
+                {
+                    MessageBox.Show("Conexão Não foiEstabelecida");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.Message);
+            }
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable DT_logIn = conn.LogIn(textUser, textpassword);
+
+            MessageBox.Show($"ID Logado: {DT_logIn.Rows[0][1].ToString()}\nUser Name: {DT_logIn.Rows[0][5].ToString()}\nIdade: {DT_logIn.Rows[0][2].ToString()}");
+
+            if (Convert.ToInt32(DT_logIn.Rows[0][0]) > 0)
+            {
+                this.Hide();
+                FrmAlterar n = new FrmAlterar(DT_logIn);
+                n.ShowDialog();
+            }
+
+        }
     }
 }

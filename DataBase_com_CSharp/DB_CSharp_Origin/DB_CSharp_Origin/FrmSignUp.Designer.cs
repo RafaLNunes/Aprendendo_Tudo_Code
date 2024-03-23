@@ -31,13 +31,14 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSignUp));
             panel1 = new Panel();
+            Test_Connection = new LinkLabel();
             pictureBox6 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
             CBperfil = new ComboBox();
             Nome = new Label();
             Cargo = new Label();
-            textBox2 = new TextBox();
+            textName = new TextBox();
             label4 = new Label();
             CBdia = new ComboBox();
             CBmes = new ComboBox();
@@ -69,13 +70,14 @@
             // panel1
             // 
             panel1.BackgroundImage = Properties.Resources.Design_sem_nome__1_;
+            panel1.Controls.Add(Test_Connection);
             panel1.Controls.Add(pictureBox6);
             panel1.Controls.Add(pictureBox5);
             panel1.Controls.Add(pictureBox4);
             panel1.Controls.Add(CBperfil);
             panel1.Controls.Add(Nome);
             panel1.Controls.Add(Cargo);
-            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(textName);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(CBdia);
             panel1.Controls.Add(CBmes);
@@ -95,6 +97,20 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(488, 533);
             panel1.TabIndex = 1;
+            // 
+            // Test_Connection
+            // 
+            Test_Connection.ActiveLinkColor = Color.Red;
+            Test_Connection.AutoSize = true;
+            Test_Connection.BackColor = Color.Transparent;
+            Test_Connection.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            Test_Connection.Location = new Point(312, 0);
+            Test_Connection.Name = "Test_Connection";
+            Test_Connection.Size = new Size(176, 31);
+            Test_Connection.TabIndex = 21;
+            Test_Connection.TabStop = true;
+            Test_Connection.Text = "Testar Conexão";
+            Test_Connection.LinkClicked += Test_Connection_LinkClicked;
             // 
             // pictureBox6
             // 
@@ -165,13 +181,13 @@
             Cargo.TabIndex = 16;
             Cargo.Text = "Cargo";
             // 
-            // textBox2
+            // textName
             // 
-            textBox2.Anchor = AnchorStyles.None;
-            textBox2.Location = new Point(78, 45);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(290, 27);
-            textBox2.TabIndex = 15;
+            textName.Anchor = AnchorStyles.None;
+            textName.Location = new Point(78, 45);
+            textName.Name = "textName";
+            textName.Size = new Size(290, 27);
+            textName.TabIndex = 15;
             // 
             // label4
             // 
@@ -230,7 +246,7 @@
             linkLabel1.Anchor = AnchorStyles.None;
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Location = new Point(246, 502);
+            linkLabel1.Location = new Point(233, 478);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(84, 20);
             linkLabel1.TabIndex = 8;
@@ -243,7 +259,7 @@
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Location = new Point(133, 502);
+            label3.Location = new Point(120, 478);
             label3.Name = "label3";
             label3.Size = new Size(120, 20);
             label3.TabIndex = 7;
@@ -254,12 +270,14 @@
             signup.Anchor = AnchorStyles.None;
             signup.BackColor = Color.FromArgb(0, 189, 255);
             signup.FlatAppearance.BorderSize = 0;
+            signup.FlatStyle = FlatStyle.Flat;
             signup.Location = new Point(133, 411);
             signup.Name = "signup";
             signup.Size = new Size(174, 55);
             signup.TabIndex = 6;
             signup.Text = "Sign Up";
             signup.UseVisualStyleBackColor = false;
+            signup.Click += signup_Click;
             // 
             // pictureBox3
             // 
@@ -340,8 +358,8 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.Image = Properties.Resources.image_removebg_preview__1_;
-            pictureBox1.Location = new Point(-10, -10);
+            pictureBox1.Image = Properties.Resources.image_removebg_preview__2_;
+            pictureBox1.Location = new Point(-23, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(515, 583);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -400,7 +418,7 @@
         private ComboBox CBperfil;
         private Label Nome;
         private Label Cargo;
-        private TextBox textBox2;
+        private TextBox textName;
         private Label label4;
         private ComboBox CBdia;
         private ComboBox CBmes;
@@ -408,5 +426,6 @@
         private PictureBox pictureBox6;
         private PictureBox pictureBox5;
         private PictureBox pictureBox4;
+        private LinkLabel Test_Connection;
     }
 }

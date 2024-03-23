@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DB_CSharp_Origin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540762142993a8c6b9a3e1becbeb2ab68280021f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21b25cf307a90803963c2d38de5019ece75ffd8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DB_CSharp_Origin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DB_CSharp_Origin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
