@@ -78,10 +78,10 @@ namespace DataBase_com_CSharp_002
             return reg;
         }
 
-        public int altertable(String nameuser, String password, String nome, int idade, int ID,int carg)
+        public int altertable(String nameuser, String password, String nome, int idade, int ID,int carg, string pic)
         {
             int reg = 0;
-            String sql = "update Users set Nome=@nome, NameUser=@nameuser, pasword=@password, idade=@idade, CFK_perfil=@cargo where Cod_User=@cod";
+            String sql = "update Users set Nome=@nome, NameUser=@nameuser, pasword=@password, idade=@idade, CFK_perfil=@cargo, Cam_FT=@picture where Cod_User=@cod";
 
             MySqlConnection com = conn.TestConnection();
             com.Open();

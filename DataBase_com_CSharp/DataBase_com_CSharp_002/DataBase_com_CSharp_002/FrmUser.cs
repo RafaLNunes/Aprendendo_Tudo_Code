@@ -110,10 +110,12 @@ namespace DataBase_com_CSharp_002
             textPassWord.Text = dataGriduser.Rows[e.RowIndex].Cells["PassWord"].Value.ToString();
             textuser.Text = dataGriduser.Rows[e.RowIndex].Cells["Name User"].Value.ToString();
             CBperfil.Text = dataGriduser.Rows[e.RowIndex].Cells["Perfil do Usuário"].Value.ToString();
-            string cm_foto =dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].Value.ToString();
+            String cm_foto = dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].Value.ToString();
             if (File.Exists(cm_foto))
             {
                 pictureBox1.Image = Image.FromFile(cm_foto);
+                MessageBox.Show($"{cm_foto}");
+
             }
             else
             {
@@ -127,7 +129,7 @@ namespace DataBase_com_CSharp_002
         {
             cluser u = new cluser();
             int idade = Convert.ToInt32(textIdade.Text);
-            if (u.altertable(textuser.Text, textPassWord.Text, txtNome.Text, idade, cod, CBperfil.SelectedIndex) > 0)
+            if (u.altertable(textuser.Text, textPassWord.Text, txtNome.Text, idade, cod, CBperfil.SelectedIndex, Cam_FT) > 0)
             {
                 MessageBox.Show("Mudança efetuada com sucesso");
 
@@ -173,7 +175,6 @@ namespace DataBase_com_CSharp_002
                 ft.Filter = "image file(*.jpg;*.png;*.gif;*.jpeg;*.webp)|*.jpg;*.png;*.gif;*.jpeg;*.webp";
                 if(ft.ShowDialog() == DialogResult.OK)
                 {
-                    //String fliepath = @$"{}";
                     pictureBox1.Image = Image.FromFile(ft.FileName);
                     Cam_FT = ft.FileName.Replace("\\", "\\\\");
                     
