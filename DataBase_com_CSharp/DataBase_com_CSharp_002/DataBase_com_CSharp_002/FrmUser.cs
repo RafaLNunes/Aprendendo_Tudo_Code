@@ -110,9 +110,17 @@ namespace DataBase_com_CSharp_002
             textPassWord.Text = dataGriduser.Rows[e.RowIndex].Cells["PassWord"].Value.ToString();
             textuser.Text = dataGriduser.Rows[e.RowIndex].Cells["Name User"].Value.ToString();
             CBperfil.Text = dataGriduser.Rows[e.RowIndex].Cells["Perfil do Usuário"].Value.ToString();
-            String cm_foto = @$"{dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].Value.ToString()}";
-            pictureBox1.Image = Image.FromFile(cm_foto);
-            
+            string cm_foto =dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].Value.ToString();
+            if (File.Exists(cm_foto))
+            {
+                pictureBox1.Image = Image.FromFile(cm_foto);
+            }
+            else
+            {
+                MessageBox.Show("vish");
+                MessageBox.Show($"{cm_foto}");
+            }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -166,8 +174,9 @@ namespace DataBase_com_CSharp_002
                 if(ft.ShowDialog() == DialogResult.OK)
                 {
                     //String fliepath = @$"{}";
-                    pictureBox1.Image = new Bitmap(ft.FileName);
-                    Cam_FT = @$"{ft.FileName}";
+                    pictureBox1.Image = Image.FromFile(ft.FileName);
+                    Cam_FT = ft.FileName.Replace("\\", "\\\\");
+                    
                 }else
                 {
                     MessageBox.Show("Não foi escolhido nenhuma imagem!!!");
