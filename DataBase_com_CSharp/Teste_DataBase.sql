@@ -23,6 +23,7 @@ Create Table Users(
     NameUser varchar(60),
 	pasword varchar(40),
     CFK_perfil int,
+    Cam_FT varchar(120),
     constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil)
 );
 

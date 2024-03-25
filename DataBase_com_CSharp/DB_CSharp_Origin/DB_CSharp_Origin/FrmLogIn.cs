@@ -81,7 +81,8 @@ namespace DB_CSharp_Origin
             if (Convert.ToInt32(DT_logIn.Rows[0][0]) > 0)
             {
                 this.Hide();
-                FrmAlterar n = new FrmAlterar(DT_logIn);
+                FrmAlter n = new FrmAlter();
+                MessageBox.Show($"Seja bem vindo {DT_logIn.Rows[0][1].ToString()}");
                 n.ShowDialog();
             }
 

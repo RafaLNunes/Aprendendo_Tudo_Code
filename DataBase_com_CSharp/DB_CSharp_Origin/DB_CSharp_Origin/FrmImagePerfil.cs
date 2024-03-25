@@ -16,6 +16,7 @@ namespace DB_CSharp_Origin
 
         bool visiblepasswordchar;
         ClConnection conn = new ClConnection();
+        String Cam_FT = "";
 
         public FrmImagePerfil()
         {
@@ -24,6 +25,8 @@ namespace DB_CSharp_Origin
 
         private void FrmImage_Load(object sender, EventArgs e)
         {
+            Home hm = new Home();
+            this.Controls.Add(hm.GetMenu());
             PBvisible.Image = listImage_Visible_password.Images[0];
         }
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -51,7 +54,9 @@ namespace DB_CSharp_Origin
                 if (ft_perfil.ShowDialog() == DialogResult.OK)
                 {
                     Image files = FromFile(ft_perfil.FileName);
+                    Cam_FT = ft_perfil.FileName;
                     PBrouder_perfil.Image = files;
+                    PBrouder_perfil.SizeMode = PictureBoxSizeMode.StretchImage;
 
                 }
                 else
@@ -91,6 +96,11 @@ namespace DB_CSharp_Origin
         private void FrmImagePerfil_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void PBrouder_perfil_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

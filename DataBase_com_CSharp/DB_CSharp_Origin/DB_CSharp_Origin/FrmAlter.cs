@@ -11,22 +11,24 @@ using System.Windows.Forms;
 
 namespace DB_CSharp_Origin
 {
-    public partial class FrmAlterar : Form
+    public partial class FrmAlter : Form
     {
         bool passwordchard;
         ClConnection conn = new ClConnection();
 
-        DataTable logIn;
 
-        public FrmAlterar(DataTable User)
+
+        public FrmAlter()
         {
-            this.logIn = User;
 
             InitializeComponent();
-            MessageBox.Show($"Seja bem vindo {this.logIn.Rows[0][1].ToString()}");
+            
         }
         private void FrmAlterar_Load(object sender, EventArgs e)
         {
+
+            Home hm = new Home();
+            this.Controls.Add(hm.GetMenu());
             PBvisiblePassword.Image = listImage_Visible_password.Images[0];
 
             dataGridViewuser.DataSource = conn.Obter_dados("select Users.Cod_User as 'Código', Users.Nome as 'Nome', Users.idade as 'Idade', Users.Data_nasc as 'Ano de cadastro', Users.UserName as 'Name User',  Users.Passwords as 'PassWord', perfil.Cargo as 'Perfil do Usuário' from users inner join perfil on users.CFK_perfil = perfil.Cod_perfil;");

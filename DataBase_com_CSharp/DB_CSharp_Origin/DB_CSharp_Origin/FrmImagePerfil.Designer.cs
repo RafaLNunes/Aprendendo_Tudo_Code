@@ -74,6 +74,7 @@
             PBrouder_perfil.SizeMode = PictureBoxSizeMode.Zoom;
             PBrouder_perfil.TabIndex = 1;
             PBrouder_perfil.TabStop = false;
+            PBrouder_perfil.Click += PBrouder_perfil_Click;
             // 
             // pictureBox1
             // 

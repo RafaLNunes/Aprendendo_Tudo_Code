@@ -97,7 +97,12 @@ namespace DB_CSharp_Origin
         }
 
 
+        public int Cad_image()
+        {
+            int reg = 0;
 
+            return reg;
+        }
 
 
         public DataTable Obter_dados(string sql)

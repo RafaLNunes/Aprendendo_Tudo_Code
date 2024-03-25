@@ -10,6 +10,7 @@ namespace DataBase_com_CSharp_002
         int cod;
         bool teste;
         int Cargo;
+        String Cam_FT;
 
         public Frmuser()
         {
@@ -37,7 +38,7 @@ namespace DataBase_com_CSharp_002
             }
 
 
-            dataGriduser.DataSource = cot.Obterdados("select Users.Cod_User as 'Código', Users.Nome as 'Nome', Users.idade as 'Idade', Users.ano as 'Ano de cadastro', Users.NameUser as 'Name User',  Users.pasword as 'PassWord', perfil.cargo as 'Perfil do Usuário' from users inner join perfil on users.CFK_perfil = perfil.Cod_perfil;");
+            dataGriduser.DataSource = cot.Obterdados("select Users.Cod_User as 'Código', Users.Nome as 'Nome', Users.idade as 'Idade', Users.ano as 'Ano de cadastro', Users.NameUser as 'Name User',  Users.pasword as 'PassWord', perfil.cargo as 'Perfil do Usuário', Users.Cam_FT as 'Foto do User' from users inner join perfil on users.CFK_perfil = perfil.Cod_perfil;");
 
 
             CBperfil.DataSource = cot.Obterdados("select * from perfil;");
@@ -70,7 +71,7 @@ namespace DataBase_com_CSharp_002
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (Conn.Cadastrar(txtNome, textIdade, CBAno, CBMes, CBDia, textuser, textPassWord, Cargo) > 0)
+            if (Conn.Cadastrar(txtNome, textIdade, CBAno, CBMes, CBDia, textuser, textPassWord, Cargo, Cam_FT) > 0)
             {
                 MessageBox.Show("Cadastro OK");
                 teste = true;
@@ -103,12 +104,15 @@ namespace DataBase_com_CSharp_002
         {
             cod = Convert.ToInt32(dataGriduser.Rows[e.RowIndex].Cells[e.ColumnIndex].Value);
             resut.Text = cod.ToString();
-            LAno.Text = dataGriduser.Rows[e.RowIndex].Cells["Ano de cadastro"].Value.ToString();
+            //LAno.Text = dataGriduser.Rows[e.RowIndex].Cells["Ano de cadastro"].Value.ToString();
             txtNome.Text = dataGriduser.Rows[e.RowIndex].Cells["Nome"].Value.ToString();
             textIdade.Text = dataGriduser.Rows[e.RowIndex].Cells["idade"].Value.ToString();
             textPassWord.Text = dataGriduser.Rows[e.RowIndex].Cells["PassWord"].Value.ToString();
             textuser.Text = dataGriduser.Rows[e.RowIndex].Cells["Name User"].Value.ToString();
             CBperfil.Text = dataGriduser.Rows[e.RowIndex].Cells["Perfil do Usuário"].Value.ToString();
+            String cm_foto = @$"{dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].Value.ToString()}";
+            pictureBox1.Image = Image.FromFile(cm_foto);
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -158,11 +162,12 @@ namespace DataBase_com_CSharp_002
             try{
                 
                 OpenFileDialog ft = new OpenFileDialog();
-                ft.Filter = "image file(*.jpg;*.png;*.gif;*.jpeg)|*.jpg;*.png;*.gif;*.jpeg";
+                ft.Filter = "image file(*.jpg;*.png;*.gif;*.jpeg;*.webp)|*.jpg;*.png;*.gif;*.jpeg;*.webp";
                 if(ft.ShowDialog() == DialogResult.OK)
                 {
-                    Image files= Image.FromFile(ft.FileName);
-                    pictureBox1.Image = files;
+                    //String fliepath = @$"{}";
+                    pictureBox1.Image = new Bitmap(ft.FileName);
+                    Cam_FT = @$"{ft.FileName}";
                 }else
                 {
                     MessageBox.Show("Não foi escolhido nenhuma imagem!!!");

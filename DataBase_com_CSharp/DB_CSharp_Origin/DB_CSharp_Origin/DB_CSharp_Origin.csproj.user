@@ -4,7 +4,7 @@
     <Compile Update="clRouderPB.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="FrmAlterar.cs">
+    <Compile Update="FrmAlter.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmImagePerfil.cs">

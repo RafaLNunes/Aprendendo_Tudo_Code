@@ -1,6 +1,6 @@
 ﻿namespace DB_CSharp_Origin
 {
-    partial class FrmAlterar
+    partial class FrmAlter
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAlterar));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAlter));
             button1 = new Button();
             dataGridViewuser = new DataGridView();
             pictureBox6 = new PictureBox();
@@ -282,7 +282,7 @@
             button2.Text = "Excluir";
             button2.UseVisualStyleBackColor = false;
             // 
-            // FrmAlterar
+            // FrmAlter
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -307,9 +307,9 @@
             Controls.Add(Nome);
             Controls.Add(textBox2);
             Controls.Add(button1);
-            Name = "FrmAlterar";
+            Name = "FrmAlter";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FrmCadastro";
+            Text = "FrmAlter";
             FormClosed += FrmAlterar_FormClosed;
             Load += FrmAlterar_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewuser).EndInit();
