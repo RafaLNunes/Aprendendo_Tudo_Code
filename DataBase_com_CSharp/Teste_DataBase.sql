@@ -4,11 +4,20 @@ use Teste_DataBase;
 
 -- alter table Users add CFK_perfil int;
 -- alter TABLE Users ADD constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil);
+
+create table fornecedor(
+	Cod_fornc int primary key auto_increment,
+    Nome varchar(70)
+);
+
 Create Table Produto(
 	Cod_Prod int primary key auto_increment,
     nome_prod varchar(40),
     preco_prod float(5,2),
-    qtd_prod int
+    qtd_prod int,
+    CFK_fornc int,
+    foto_prod varchar(120),
+    constraint FK_fornc foreign key (CFK_fornc) references fornecedor(Cod_fornc)
 );
 create table perfil(
 	Cod_perfil int primary key auto_increment,

@@ -1,55 +1,52 @@
-create DataBase Teste_DataBase;
-use Teste_DataBase;
+create database Origin_User;
+use Origin_User;
 
-
--- alter table Users add CFK_perfil int;
--- alter TABLE Users ADD constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil);
-Create Table Produto(
-	Cod_Prod int primary key auto_increment,
-    nome_prod varchar(40),
-    preco_prod float(5,2),
-    qtd_prod int
-);
 create table perfil(
 	Cod_perfil int primary key auto_increment,
-    cargo varchar(50)
+    Cargo varchar(70) -- ADM, Vendedor, Comprador, Cliente, Gerente, Diretor, Time Maneger, ... 
 );
 
-Create Table Users(
-	Cod_User int primary key auto_increment,
-    Nome varchar(30),
-    idade int,
-    ano datetime, -- '2024-03-11 12:34:56'
-    NameUser varchar(60),
-	pasword varchar(40),
+create table tipo(
+	Cod_tipo int primary key auto_increment,
+    Tipo_prod varchar(70)
+);
+
+create table fornecedor(
+	Cod_fornc int primary key auto_increment,
+    Forneced varchar(70)
+);
+
+create table produto(
+	Cod_prod int primary key auto_increment,
+    Nome varchar(70),
+    CFK_fornc int,
+    CFK_tipo int,
+    constraint FK_fornc foreign key (CFK_fornc) references fornecedor (Cod_fornc),
+    constraint FK_tipo foreign key (CFK_tipo) references tipo (Cod_tipo)
+);
+
+create table users(
+	Cod_user int primary key auto_increment,
+    Nome varchar(70),
+    Idade int, -- ano atual menos ano escolhido
+    Data_nasc date,
+    hora_registro time,
+    UserName varchar(70),
+    Passwords varchar(80),
     CFK_perfil int,
-    Cam_FT varchar(120),
-    constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil)
+    constraint FK_perfil foreign key (CFK_perfil) references perfil (Cod_perfil)
 );
 
-Create Table juncao(
-	cod_juncao int primary key auto_increment,
-    CFK_prod int,
-    CFK_user int,
-    constraint FK_prod foreign key(CFK_prod) references Produto(Cod_Prod),
-    constraint FK_user foreign key(CFK_user) references Users(Cod_User)
-);
-	delete from Users where Cod_User=6;
-select * from Produto;
-select * from Users;
-select * from juncao;
+
+insert into perfil(Cargo) values('ADM'), ('Vendedor'), ('Comprador'), ('Cliente'), ('Gerente'), ('Diretor'), ('Time Maneger');
+
+insert into tipo(Tipo_prod) values('Alimentícios'), ('Limpeza'), ('Eletrodomésticos'), ('Roupas'), ('Acessórios');
+
+select Users.Cod_User as 'Código', Users.Nome as 'Nome', Users.idade as 'Idade', Users.Data_nasc as 'Ano de cadastro', Users.UserName as 'Name User',  Users.Passwords as 'PassWord', perfil.Cargo as 'Perfil do Usuário' from users inner join perfil on users.CFK_perfil = perfil.Cod_perfil;
+
+
+
+select * from users;
 select * from perfil;
-
-insert into perfil (cargo) values("ADM"), ("gerente"), ("técnico"), ("Vendedor"), ("Comprador");
-/*
-update Users set CFK_perfil = 4 where Cod_User = 3;
-update Users set CFK_perfil = 5 where Cod_User = 7;
-update Users set CFK_perfil = 2 where Cod_User = 8;
-update Users set CFK_perfil = 2 where Cod_User = 9;
-update Users set CFK_perfil = 1 where Cod_User = 10;
-update Users set CFK_perfil = 4 where Cod_User = 12;
-update Users set CFK_perfil = 2 where Cod_User = 13;
-
-*/
--- create database baa;
--- use baa;
+select * from tipo;
+select * from fornecedor;

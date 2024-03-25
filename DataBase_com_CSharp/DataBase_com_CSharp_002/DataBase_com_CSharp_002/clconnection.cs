@@ -92,7 +92,30 @@ namespace DataBase_com_CSharp_002
             return dt;
         }
 
+        public int cadastro(string sql, string[] campos, object[] values)
+        {
+            int reg = 0;
 
+            try
+            {
+                Connections = TestConnection();
+                Connections.Open();
+
+                MySqlCommand cmd = new MySqlCommand(sql, Connections);
+                for (int i = 0; i < values.Length; i++)
+                {
+                    cmd.Parameters.AddWithValue(campos[i], values[i]);
+                }
+
+                reg = cmd.ExecuteNonQuery();
+                Connections.Clone();
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.Message);
+            }
+
+            return reg;
+        }
 
 
     }

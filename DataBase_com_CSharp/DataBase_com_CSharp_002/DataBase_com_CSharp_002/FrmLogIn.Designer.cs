@@ -41,17 +41,18 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(180, 81);
+            label2.Location = new Point(206, 108);
             label2.Name = "label2";
-            label2.Size = new Size(62, 15);
+            label2.Size = new Size(76, 20);
             label2.TabIndex = 9;
             label2.Text = "userName";
             // 
             // enter
             // 
-            enter.Location = new Point(129, 259);
+            enter.Location = new Point(147, 345);
+            enter.Margin = new Padding(3, 4, 3, 4);
             enter.Name = "enter";
-            enter.Size = new Size(75, 23);
+            enter.Size = new Size(86, 31);
             enter.TabIndex = 8;
             enter.Text = "Enter";
             enter.UseVisualStyleBackColor = true;
@@ -60,32 +61,35 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(183, 158);
+            label1.Location = new Point(209, 211);
             label1.Name = "label1";
-            label1.Size = new Size(59, 15);
+            label1.Size = new Size(72, 20);
             label1.TabIndex = 7;
             label1.Text = "PassWord";
             // 
             // textuser
             // 
-            textuser.Location = new Point(158, 99);
+            textuser.Location = new Point(181, 132);
+            textuser.Margin = new Padding(3, 4, 3, 4);
             textuser.Name = "textuser";
-            textuser.Size = new Size(100, 23);
+            textuser.Size = new Size(114, 27);
             textuser.TabIndex = 6;
             // 
             // textpass
             // 
             textpass.ImeMode = ImeMode.NoControl;
-            textpass.Location = new Point(158, 176);
+            textpass.Location = new Point(181, 235);
+            textpass.Margin = new Padding(3, 4, 3, 4);
             textpass.Name = "textpass";
-            textpass.Size = new Size(100, 23);
+            textpass.Size = new Size(114, 27);
             textpass.TabIndex = 5;
             // 
             // button1
             // 
-            button1.Location = new Point(210, 259);
+            button1.Location = new Point(240, 345);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 10;
             button1.Text = "Cancelar";
             button1.UseVisualStyleBackColor = true;
@@ -95,8 +99,9 @@
             // 
             button2.Dock = DockStyle.Left;
             button2.Location = new Point(0, 0);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 361);
+            button2.Size = new Size(86, 600);
             button2.TabIndex = 11;
             button2.Text = "Teste conexão";
             button2.UseVisualStyleBackColor = true;
@@ -105,9 +110,10 @@
             // ir_cad
             // 
             ir_cad.Dock = DockStyle.Bottom;
-            ir_cad.Location = new Point(75, 301);
+            ir_cad.Location = new Point(86, 520);
+            ir_cad.Margin = new Padding(3, 4, 3, 4);
             ir_cad.Name = "ir_cad";
-            ir_cad.Size = new Size(352, 60);
+            ir_cad.Size = new Size(292, 80);
             ir_cad.TabIndex = 12;
             ir_cad.Text = "Ir para cadastro";
             ir_cad.UseVisualStyleBackColor = true;
@@ -115,9 +121,9 @@
             // 
             // FrmLogIn
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(427, 361);
+            ClientSize = new Size(378, 600);
             Controls.Add(ir_cad);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -126,6 +132,7 @@
             Controls.Add(label1);
             Controls.Add(textuser);
             Controls.Add(textpass);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmLogIn";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmLogIn";
