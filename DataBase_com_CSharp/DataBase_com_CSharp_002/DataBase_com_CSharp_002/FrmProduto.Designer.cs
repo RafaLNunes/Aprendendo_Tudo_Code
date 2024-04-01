@@ -35,11 +35,11 @@
             label4 = new Label();
             textpreco = new TextBox();
             textqtd = new TextBox();
-            CBfornc = new ComboBox();
             button2 = new Button();
             button3 = new Button();
             pictureBox1 = new PictureBox();
-            CBprod = new ComboBox();
+            textprod = new TextBox();
+            textfornc = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -102,14 +102,6 @@
             textqtd.Size = new Size(125, 27);
             textqtd.TabIndex = 8;
             // 
-            // CBfornc
-            // 
-            CBfornc.FormattingEnabled = true;
-            CBfornc.Location = new Point(285, 462);
-            CBfornc.Name = "CBfornc";
-            CBfornc.Size = new Size(125, 28);
-            CBfornc.TabIndex = 9;
-            // 
             // button2
             // 
             button2.Location = new Point(526, 379);
@@ -127,6 +119,7 @@
             button3.TabIndex = 11;
             button3.Text = "Cadastrar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // pictureBox1
             // 
@@ -137,14 +130,21 @@
             pictureBox1.Size = new Size(358, 214);
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // CBprod
+            // textprod
             // 
-            CBprod.FormattingEnabled = true;
-            CBprod.Location = new Point(285, 317);
-            CBprod.Name = "CBprod";
-            CBprod.Size = new Size(125, 28);
-            CBprod.TabIndex = 13;
+            textprod.Location = new Point(285, 317);
+            textprod.Name = "textprod";
+            textprod.Size = new Size(125, 27);
+            textprod.TabIndex = 13;
+            // 
+            // textfornc
+            // 
+            textfornc.Location = new Point(285, 462);
+            textfornc.Name = "textfornc";
+            textfornc.Size = new Size(125, 27);
+            textfornc.TabIndex = 14;
             // 
             // FrmProduto
             // 
@@ -152,11 +152,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lime;
             ClientSize = new Size(742, 600);
-            Controls.Add(CBprod);
+            Controls.Add(textfornc);
+            Controls.Add(textprod);
             Controls.Add(pictureBox1);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(CBfornc);
             Controls.Add(textqtd);
             Controls.Add(textpreco);
             Controls.Add(label4);
@@ -185,10 +185,10 @@
         private Label label4;
         private TextBox textpreco;
         private TextBox textqtd;
-        private ComboBox CBfornc;
         private Button button2;
         private Button button3;
         private PictureBox pictureBox1;
-        private ComboBox CBprod;
+        private TextBox textprod;
+        private TextBox textfornc;
     }
 }

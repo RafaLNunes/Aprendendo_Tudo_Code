@@ -55,6 +55,7 @@
             button5 = new Button();
             LAno = new Label();
             pictureBox1 = new PictureBox();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGriduser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -301,7 +302,7 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(927, 176);
+            pictureBox1.Location = new Point(863, 177);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(255, 234);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -309,11 +310,24 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
+            // button6
+            // 
+            button6.Dock = DockStyle.Right;
+            button6.Location = new Point(1137, 112);
+            button6.Margin = new Padding(3, 4, 3, 4);
+            button6.Name = "button6";
+            button6.Size = new Size(97, 378);
+            button6.TabIndex = 26;
+            button6.Text = "Produto";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // Frmuser
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1234, 600);
+            Controls.Add(button6);
             Controls.Add(pictureBox1);
             Controls.Add(LAno);
             Controls.Add(button5);
@@ -378,5 +392,6 @@
         private Button button5;
         private Label LAno;
         private PictureBox pictureBox1;
+        private Button button6;
     }
 }

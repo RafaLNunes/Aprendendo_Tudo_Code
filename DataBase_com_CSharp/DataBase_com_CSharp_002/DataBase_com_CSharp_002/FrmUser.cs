@@ -10,7 +10,7 @@ namespace DataBase_com_CSharp_002
         int cod;
         bool teste;
         int Cargo;
-        String Cam_FT;
+        String Cam_FT = "";
 
         public Frmuser()
         {
@@ -110,7 +110,7 @@ namespace DataBase_com_CSharp_002
             textPassWord.Text = dataGriduser.Rows[e.RowIndex].Cells["PassWord"].Value.ToString();
             textuser.Text = dataGriduser.Rows[e.RowIndex].Cells["Name User"].Value.ToString();
             CBperfil.Text = dataGriduser.Rows[e.RowIndex].Cells["Perfil do Usuário"].Value.ToString();
-            String cm_foto = dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].Value.ToString();
+            String cm_foto = dataGriduser.Rows[e.RowIndex].Cells["Foto do User"].ToString();
             if (File.Exists(cm_foto))
             {
                 pictureBox1.Image = Image.FromFile(cm_foto);
@@ -169,24 +169,34 @@ namespace DataBase_com_CSharp_002
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            try{
-                
+            try
+            {
+
                 OpenFileDialog ft = new OpenFileDialog();
                 ft.Filter = "image file(*.jpg;*.png;*.gif;*.jpeg;*.webp)|*.jpg;*.png;*.gif;*.jpeg;*.webp";
-                if(ft.ShowDialog() == DialogResult.OK)
+                if (ft.ShowDialog() == DialogResult.OK)
                 {
                     pictureBox1.Image = Image.FromFile(ft.FileName);
                     Cam_FT = ft.FileName.Replace("\\", "\\\\");
-                    
-                }else
+
+                }
+                else
                 {
                     MessageBox.Show("Não foi escolhido nenhuma imagem!!!");
                 }
 
-            }catch(Exception xe)
-            {
-                MessageBox.Show("Erro: " +  xe.Message);
             }
+            catch (Exception xe)
+            {
+                MessageBox.Show("Erro: " + xe.Message);
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmProduto prod = new FrmProduto();
+            this.Hide();
+            prod.ShowDialog();
         }
     }
 }

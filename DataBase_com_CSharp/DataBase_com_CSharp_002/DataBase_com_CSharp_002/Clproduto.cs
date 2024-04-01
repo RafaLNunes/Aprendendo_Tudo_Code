@@ -8,12 +8,12 @@ namespace DataBase_com_CSharp_002
 {
     internal class Clproduto
     {
-        int Code;
-        String nome;
-        double preco;
-        int qtd_prod;
-        int fornecedor;
-        String foto;
+        public int Code;
+        public String nome;
+        public float preco;
+        public int qtd_prod;
+        public int fornecedor;
+        public String foto;
 
         public Clproduto() 
         {
@@ -29,11 +29,15 @@ namespace DataBase_com_CSharp_002
         {
             int reg = 0;
 
-            string sql = $"insert into Produto(nome_prod, preco_prod, qtd_prod, CFK_fornc, foto_prod) values('@nome',@preco,@qtd,@fornc,'@foto');";
+            string sql = $"insert into Produto(nome_prod, preco_prod, qtd_prod, CFK_fornc, foto_prod) values(@nome,@preco,@qtd,@fornc,@foto);";
             string[] campo = { "@nome", "@preco", "@qtd", "@fornc", "@foto" };
 
-            Object[] values = { prod.Code, prod.nome, prod.preco, prod.qtd_prod, prod.fornecedor, prod.foto };
-
+            Object[] values = { prod.nome, prod.preco, prod.qtd_prod, prod.fornecedor, prod.foto };
+            clconnection conn = new clconnection();
+            if(conn.cadastro(sql, campo, values) > 0)
+            {
+                MessageBox.Show("Cadastro Efetuado!!!");
+            }
             return reg;
         }
     }

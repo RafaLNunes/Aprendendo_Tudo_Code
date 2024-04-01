@@ -109,9 +109,9 @@ namespace DataBase_com_CSharp_002
 
                 reg = cmd.ExecuteNonQuery();
                 Connections.Clone();
-            }catch(Exception ex)
+           }catch(Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+               MessageBox.Show("Erro: " + ex.Message);
             }
 
             return reg;
