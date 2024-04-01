@@ -48,8 +48,10 @@ select * from Produto;
 select * from Users;
 select * from juncao;
 select * from perfil;
+select * from fornecedor;
 
 insert into perfil (cargo) values("ADM"), ("gerente"), ("técnico"), ("Vendedor"), ("Comprador");
+insert into fornecedor(Nome) values("Sysco Corporation"),("US Foods"),("Gordon Food Service"),("Performance Food Group"),("PepsiCo"),("Tyson Foods"),("Cargill");
 /*
 update Users set CFK_perfil = 4 where Cod_User = 3;
 update Users set CFK_perfil = 5 where Cod_User = 7;
