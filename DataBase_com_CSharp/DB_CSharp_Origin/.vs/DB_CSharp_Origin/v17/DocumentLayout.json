@@ -3,39 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\clconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\clconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\clconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\clconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmalter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\database_com_csharp\\db_csharp_origin\\db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{970A6EE4-50F6-44FC-8A40-9C9B83C3B3AA}|DB_CSharp_Origin\\DB_CSharp_Origin.csproj|solutionrelative:db_csharp_origin\\frmimageperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -46,11 +46,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 57,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\Home.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\Home.cs",
@@ -58,12 +66,11 @@
               "RelativeToolTip": "DB_CSharp_Origin\\Home.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:12:57.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T12:12:57.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmAlter.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmAlter.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\FrmAlter.cs",
@@ -76,20 +83,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FrmImagePerfil.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmImagePerfil.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\FrmImagePerfil.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmImagePerfil.cs",
               "RelativeToolTip": "DB_CSharp_Origin\\FrmImagePerfil.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAYwBwAAAAsAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T11:31:07.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FrmSignUp.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmSignUp.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\FrmSignUp.cs",
@@ -101,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FrmLogIn.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmLogIn.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\FrmLogIn.cs",
@@ -113,27 +120,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FrmLogIn.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmLogIn.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\FrmLogIn.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\FrmLogIn.cs",
               "RelativeToolTip": "DB_CSharp_Origin\\FrmLogIn.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAEwFMAAAAsAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAEwFMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T15:32:38.316Z"
+              "WhenOpened": "2024-03-22T15:32:38.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ClConnection.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\ClConnection.cs",
               "RelativeDocumentMoniker": "DB_CSharp_Origin\\ClConnection.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\DataBase_com_CSharp\\DB_CSharp_Origin\\DB_CSharp_Origin\\ClConnection.cs",
               "RelativeToolTip": "DB_CSharp_Origin\\ClConnection.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBAAAAArAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAvwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T11:22:31.979Z"
+              "WhenOpened": "2024-03-25T11:22:31.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -158,18 +167,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T11:31:03.573Z",
               "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
