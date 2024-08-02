@@ -116,7 +116,7 @@ VALUES
 ('280R808E2014', 'E o Vento Levou', 'Mitchell, Margaret', 15, 280, 1, 'Romance épico sobre a vida durante a Guerra Civil Americana. A narrativa é rica em detalhes históricos e personagens complexos, oferecendo uma visão profunda e emocionante desse período tumultuado.'),
 ('350G909A2011', 'Admirável Mundo Novo', 'Huxley, Aldous', 12, 350, 1, 'Romance distópico sobre um futuro onde a humanidade é controlada por tecnologias e drogas. A narrativa é provocativa e reflexiva, explorando temas de liberdade, controle e a natureza humana.');
 
-
+-- falta
 
 Select * From Table_Cargo;
 Select * From Table_Ano_Escolar;
