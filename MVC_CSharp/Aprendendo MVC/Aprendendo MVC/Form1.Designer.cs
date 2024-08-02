@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtID = new TextBox();
+            txtNome = new TextBox();
+            txtUserName = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            comboBox1 = new ComboBox();
+            CbAno = new ComboBox();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            comboBox2 = new ComboBox();
-            comboBox3 = new ComboBox();
+            CbCargo = new ComboBox();
+            CbUnidade = new ComboBox();
             pictureBox1 = new PictureBox();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
             label7 = new Label();
-            textBox4 = new TextBox();
+            txtPassWord = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // txtID
             // 
-            textBox1.Location = new Point(141, 125);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 0;
+            txtID.Location = new Point(141, 125);
+            txtID.Name = "txtID";
+            txtID.Size = new Size(125, 27);
+            txtID.TabIndex = 0;
             // 
-            // textBox2
+            // txtNome
             // 
-            textBox2.Location = new Point(141, 158);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 1;
+            txtNome.Location = new Point(141, 158);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(125, 27);
+            txtNome.TabIndex = 1;
             // 
-            // textBox3
+            // txtUserName
             // 
-            textBox3.Location = new Point(141, 191);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 2;
+            txtUserName.Location = new Point(141, 191);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(125, 27);
+            txtUserName.TabIndex = 2;
             // 
             // label1
             // 
@@ -97,13 +97,13 @@
             label3.TabIndex = 8;
             label3.Text = "Name User";
             // 
-            // comboBox1
+            // CbAno
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(141, 257);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(125, 28);
-            comboBox1.TabIndex = 9;
+            CbAno.FormattingEnabled = true;
+            CbAno.Location = new Point(141, 257);
+            CbAno.Name = "CbAno";
+            CbAno.Size = new Size(125, 28);
+            CbAno.TabIndex = 9;
             // 
             // label4
             // 
@@ -132,21 +132,21 @@
             label6.TabIndex = 12;
             label6.Text = "Unidade";
             // 
-            // comboBox2
+            // CbCargo
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(141, 291);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(125, 28);
-            comboBox2.TabIndex = 13;
+            CbCargo.FormattingEnabled = true;
+            CbCargo.Location = new Point(141, 291);
+            CbCargo.Name = "CbCargo";
+            CbCargo.Size = new Size(125, 28);
+            CbCargo.TabIndex = 13;
             // 
-            // comboBox3
+            // CbUnidade
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(141, 325);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(125, 28);
-            comboBox3.TabIndex = 14;
+            CbUnidade.FormattingEnabled = true;
+            CbUnidade.Location = new Point(141, 325);
+            CbUnidade.Name = "CbUnidade";
+            CbUnidade.Size = new Size(125, 28);
+            CbUnidade.TabIndex = 14;
             // 
             // pictureBox1
             // 
@@ -169,6 +169,7 @@
             button1.TabIndex = 16;
             button1.Text = "Cadastrar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -203,12 +204,12 @@
             label7.TabIndex = 20;
             label7.Text = "PassWord";
             // 
-            // textBox4
+            // txtPassWord
             // 
-            textBox4.Location = new Point(141, 224);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 19;
+            txtPassWord.Location = new Point(141, 224);
+            txtPassWord.Name = "txtPassWord";
+            txtPassWord.Size = new Size(125, 27);
+            txtPassWord.TabIndex = 19;
             // 
             // Form1
             // 
@@ -216,23 +217,23 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label7);
-            Controls.Add(textBox4);
+            Controls.Add(txtPassWord);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
-            Controls.Add(comboBox3);
-            Controls.Add(comboBox2);
+            Controls.Add(CbUnidade);
+            Controls.Add(CbCargo);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(comboBox1);
+            Controls.Add(CbAno);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtUserName);
+            Controls.Add(txtNome);
+            Controls.Add(txtID);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -243,23 +244,23 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtID;
+        private TextBox txtNome;
+        private TextBox txtUserName;
         private Label label1;
         private Label label2;
         private Label label3;
-        private ComboBox comboBox1;
+        private ComboBox CbAno;
         private Label label4;
         private Label label5;
         private Label label6;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
+        private ComboBox CbCargo;
+        private ComboBox CbUnidade;
         private PictureBox pictureBox1;
         private Button button1;
         private Button button2;
         private Button button3;
         private Label label7;
-        private TextBox textBox4;
+        private TextBox txtPassWord;
     }
 }

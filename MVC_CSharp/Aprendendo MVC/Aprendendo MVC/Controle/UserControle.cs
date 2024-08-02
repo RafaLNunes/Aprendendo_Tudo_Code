@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aprendendo_MVC.Controle
 {
-    internal class UserControle
+    public class UserControle
     {
         //chamo o objeto da conexao
         ClConectection con = new ClConectection();
@@ -15,17 +15,17 @@ namespace Aprendendo_MVC.Controle
 
         //metodo para cadastrar 
 
-        public bool cadastrar(ModeloUser livro)
+        public bool Inserir_Cadastro(ModeloUser livro)
         {
             bool resultado = false;
             try
             {
                 //inicializar a variavel resultado da opercao
-                string sql = "insert into livro(Nome_Livro, QTD_Estoque, Numb_Paginas, Edicao_Livro, IMG_Livro, Descricao_Livro)values(@Nome_Livro, @QTD_Estoque, @Numb_Paginas, @Edicao_Livro, @IMG_Livro, @Descricao_Livro)";
+                string sql = "insert into Table_User(ID_Aluno, Nome_Completo, NameUser, Senha)values(@ID_Aluno, @Nome_Completo, @UserName, @Password)";
                 //monto o valor de atributos da tabela usuario
-                string[] campos = { "@Nome_Livro", "@QTD_Estoque", "@Numb_Paginas", "@Edicao_Livro", "@IMG_Livro", "@Descricao_Livro" };
+                string[] campos = {"@ID_Aluno", "@Nome_Completo", "@UserName", "@Password", "@IMG_User" };
                 //monto o vetor com os valores do formulario
-                string[] valores = { livro.ID_Aluno, livro.Nome_Completo.ToString(), livro.UserName.ToString(), livro.Password.ToString(), livro.Ano_Escolar.ToString(), livro.Cargo.ToString(), livro.Unidade.ToString() };
+                string[] valores = { livro.ID_Aluno, livro.Nome_Completo.ToString(), livro.UserName.ToString(), livro.Password.ToString()};
             
                 //testar o insert no banco de dados
                 if (con.cadastrar(0, campos, valores, sql) >= 1)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aprendendo_MVC
 {
-    internal class ClConectection
+    public class ClConectection
     {
 
         static private String server = "localhost"; //localhost
@@ -54,7 +54,7 @@ namespace Aprendendo_MVC
                 if (registro > 0)
                 {
                     //se o codigo existir no registro, sera substituido aqui para execução
-                    cmd.Parameters.AddWithValue("@Cod_Livro", codigo);
+                    cmd.Parameters.AddWithValue("@ID_Aluno", codigo);
                 }
 
                 //executa o script sql
