@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aprendendo MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21f6ca65f4ed7b50100ce0ecdcaed7a9a1522628")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0e8a139f261dc26c8d5e3e7ec8c30f8e05c632a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aprendendo MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aprendendo MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
