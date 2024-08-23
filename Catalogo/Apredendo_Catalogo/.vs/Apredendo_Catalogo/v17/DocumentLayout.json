@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1CAE5-B1FA-4721-9813-791B504BBE76}|Apredendo_Catalogo\\Apredendo_Catalogo.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\catalogo\\apredendo_catalogo\\apredendo_catalogo\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B1CAE5-B1FA-4721-9813-791B504BBE76}|Apredendo_Catalogo\\Apredendo_Catalogo.csproj|solutionrelative:apredendo_catalogo\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1CAE5-B1FA-4721-9813-791B504BBE76}|Apredendo_Catalogo\\Apredendo_Catalogo.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\catalogo\\apredendo_catalogo\\apredendo_catalogo\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B1CAE5-B1FA-4721-9813-791B504BBE76}|Apredendo_Catalogo\\Apredendo_Catalogo.csproj|solutionrelative:apredendo_catalogo\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1CAE5-B1FA-4721-9813-791B504BBE76}|Apredendo_Catalogo\\Apredendo_Catalogo.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\catalogo\\apredendo_catalogo\\apredendo_catalogo\\clconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B1CAE5-B1FA-4721-9813-791B504BBE76}|Apredendo_Catalogo\\Apredendo_Catalogo.csproj|solutionrelative:apredendo_catalogo\\clconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCatalogo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\Apredendo_Catalogo\\FrmCatalogo.cs",
+              "RelativeDocumentMoniker": "Apredendo_Catalogo\\FrmCatalogo.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\Apredendo_Catalogo\\FrmCatalogo.cs",
+              "RelativeToolTip": "Apredendo_Catalogo\\FrmCatalogo.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAWwDcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:53:51.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCatalogo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\Apredendo_Catalogo\\FrmCatalogo.cs",
+              "RelativeDocumentMoniker": "Apredendo_Catalogo\\FrmCatalogo.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\Apredendo_Catalogo\\FrmCatalogo.cs [Projeto]",
+              "RelativeToolTip": "Apredendo_Catalogo\\FrmCatalogo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:52:32.593Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClConection.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\Apredendo_Catalogo\\ClConection.cs",
+              "RelativeDocumentMoniker": "Apredendo_Catalogo\\ClConection.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Catalogo\\Apredendo_Catalogo\\Apredendo_Catalogo\\ClConection.cs",
+              "RelativeToolTip": "Apredendo_Catalogo\\ClConection.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAMwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:52:53.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
