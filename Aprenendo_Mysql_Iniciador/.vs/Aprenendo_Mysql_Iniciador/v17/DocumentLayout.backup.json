@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\aprenendo_mysql_iniciador\\aprenendo_mysql_iniciador\\clcontroleconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|solutionrelative:aprenendo_mysql_iniciador\\clcontroleconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\aprenendo_mysql_iniciador\\aprenendo_mysql_iniciador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|solutionrelative:aprenendo_mysql_iniciador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\aprenendo_mysql_iniciador\\aprenendo_mysql_iniciador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|solutionrelative:aprenendo_mysql_iniciador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|c:\\users\\aluno\\documents\\github\\aprendendo_tudo_code\\aprenendo_mysql_iniciador\\aprenendo_mysql_iniciador\\clconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA02DE59-3F4D-447E-8D0D-A82CBB5EB86B}|Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador.csproj|solutionrelative:aprenendo_mysql_iniciador\\clconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clconection.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\Clconection.cs",
+              "RelativeDocumentMoniker": "Aprenendo_Mysql_Iniciador\\Clconection.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\Clconection.cs",
+              "RelativeToolTip": "Aprenendo_Mysql_Iniciador\\Clconection.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:31:44.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\Form1.cs",
+              "RelativeDocumentMoniker": "Aprenendo_Mysql_Iniciador\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\Form1.cs",
+              "RelativeToolTip": "Aprenendo_Mysql_Iniciador\\Form1.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:31:23.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClControleConexao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\ClControleConexao.cs",
+              "RelativeDocumentMoniker": "Aprenendo_Mysql_Iniciador\\ClControleConexao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\ClControleConexao.cs",
+              "RelativeToolTip": "Aprenendo_Mysql_Iniciador\\ClControleConexao.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAEwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:40:20.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\Form1.cs",
+              "RelativeDocumentMoniker": "Aprenendo_Mysql_Iniciador\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Aprendendo_Tudo_Code\\Aprenendo_Mysql_Iniciador\\Aprenendo_Mysql_Iniciador\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Aprenendo_Mysql_Iniciador\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:24:23.231Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
